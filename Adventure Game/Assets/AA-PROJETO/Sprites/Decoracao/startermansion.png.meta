@@ -804,7 +804,7 @@ TextureImporter:
       213: -5496405009398829558
     second: startermansion_266
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -825,6 +825,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -863,6 +864,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -914,6 +916,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1420,6 +1434,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      startermansion_0: -2175089281961853902
+      startermansion_11: -5257598863361622456
+      startermansion_7: -5772670754031693236
+      startermansion_13: -8076249998148574001
+      startermansion_5: -6360429162172741965
+      startermansion_14: 6194409013824508810
+      startermansion_20: -7479103106394961916
+      startermansion_6: 6109062609503321112
+      startermansion_17: -183379369888255878
+      startermansion_22: -4501375574660890747
+      startermansion_12: 8552210794109081921
+      startermansion_19: -8624257011490164011
+      startermansion_16: -3482506859868615643
+      startermansion_10: -7653694356848892950
+      startermansion_18: 6287136881965293470
+      startermansion_8: 8264408402476973001
+      startermansion_2: -2821239090795183056
+      startermansion_4: 5609429982009357719
+      startermansion_21: 161811459863235064
+      startermansion_3: 5797947412523690484
+      startermansion_1: 5767832155733477963
+      startermansion_15: 5760375315207174788
+      startermansion_9: 3465851919870478435
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
