@@ -1491,7 +1491,7 @@ TextureImporter:
         x: 224
         y: 1
         width: 32
-        height: 31
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1514,7 +1514,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1535,7 +1535,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1558,7 +1558,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tile_wall_19: 316344192
+      tile_wall_5: 1297261160
       tile_wall_33: 561292657
       tile_wall_38: 1175040003
       tile_wall_18: 1212589335
@@ -1624,7 +1624,7 @@ TextureImporter:
       tile_wall_11: -2096537885
       tile_wall_22: -497356925
       tile_wall_48: -700518632
-      tile_wall_5: 1297261160
+      tile_wall_19: 316344192
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

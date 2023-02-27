@@ -51,6 +51,6 @@ TagManager:
   - name: Player
     uniqueID: 4139598823
     locked: 0
-  - name: Transicao
+  - name: UI
     uniqueID: 2423021779
     locked: 0
