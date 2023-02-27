@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuManager : MonoBehaviour
+public class TransicaoManager : MonoBehaviour
 {
     private Transicao script;
 
@@ -13,6 +13,6 @@ public class MenuManager : MonoBehaviour
     }
     public void Play()
     {
-        script.Transition("Jogo");
+        script.Transition("Casa");
     }
 }

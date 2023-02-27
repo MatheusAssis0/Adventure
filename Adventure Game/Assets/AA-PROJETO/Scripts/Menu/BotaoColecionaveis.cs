@@ -6,6 +6,7 @@ public class BotaoColecionaveis : MonoBehaviour
 {
     [SerializeField] private GameObject colecionaveis;
     [SerializeField] private GameObject inventario;
+    [SerializeField] private GameObject pauseMenu, optionsMenu, sairMenu;
     private Pause script;
 
 
@@ -30,19 +31,22 @@ public class BotaoColecionaveis : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (pauseMenu.activeSelf == false && optionsMenu.activeSelf == false && sairMenu.activeSelf == false)
         {
-            if (colecionaveis.activeSelf == true)
+            if (Input.GetKeyDown(KeyCode.C))
             {
-                colecionaveis.SetActive(false);
-                Time.timeScale = 1f;
-                script.isPaused = false;
-            }
-            else
-            {
-                colecionaveis.SetActive(true);
-                Time.timeScale = 0f;
-                script.isPaused = true;
+                if (colecionaveis.activeSelf == true)
+                {
+                    colecionaveis.SetActive(false);
+                    Time.timeScale = 1f;
+                    script.isPaused = false;
+                }
+                else
+                {
+                    colecionaveis.SetActive(true);
+                    Time.timeScale = 0f;
+                    script.isPaused = true;
+                }
             }
         }
     }
