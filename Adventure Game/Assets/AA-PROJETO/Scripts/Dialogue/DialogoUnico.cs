@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
 
-public class DialogoRandom : MonoBehaviour
+public class DialogoUnico : MonoBehaviour
 {
-    [SerializeField] private NPCConversation Dialogo1, Dialogo2;
+    [SerializeField] private NPCConversation Dialogo1;
     private bool podeInteragir;
-    private int dialogo;
 
 
     private void Update()
@@ -22,15 +21,7 @@ public class DialogoRandom : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    dialogo = Random.Range(1, 3);
-                    if (dialogo == 1)
-                    {
-                        ConversationManager.Instance.StartConversation(Dialogo1);
-                    }
-                    else
-                    {
-                        ConversationManager.Instance.StartConversation(Dialogo2);
-                    }
+                   ConversationManager.Instance.StartConversation(Dialogo1); 
                 }
             }
         }
