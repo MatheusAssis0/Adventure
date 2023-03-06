@@ -15,4 +15,9 @@ public class TransicaoManager : MonoBehaviour
     {
         script.Transition("Casa");
     }
+
+    public void Vila()
+    {
+        script.Transition("Vila");
+    }
 }

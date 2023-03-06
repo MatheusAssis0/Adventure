@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Porta : MonoBehaviour
 {
-    private Pause script;
+    private TransicaoManager script;
     private bool podeInteragir;
     private void Start()
     {
-        script = FindObjectOfType<Pause>();
+        script = FindObjectOfType<TransicaoManager>();
     }
     private void Update()
     {
@@ -16,7 +16,7 @@ public class Porta : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
-                script.GoToMainMenu();
+                script.Vila();
             }
         }
     }

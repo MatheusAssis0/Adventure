@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private BoxCollider2D bCollider;
     [SerializeField] private Animator anim;
     private bool collisionPlatform;
+
     void Update()
     {
         if(ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive || sairMenu.activeSelf == true || pauseMenu.activeSelf == true || optionsMenu.activeSelf == true)

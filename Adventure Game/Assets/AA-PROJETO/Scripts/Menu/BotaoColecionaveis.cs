@@ -1,64 +1,61 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BotaoColecionaveis : MonoBehaviour
 {
     [SerializeField] private GameObject colecionaveis;
     [SerializeField] private GameObject inventario;
-    [SerializeField] private GameObject pauseMenu, optionsMenu, sairMenu;
-    private Pause script;
+    private Scene cena;
+    private GlobalVars script;
 
 
     private void Start()
     {
-        script = FindObjectOfType<Pause>();
+        script = FindObjectOfType<GlobalVars>();
     }
     private void Update()
     {
-        if(Time.timeScale == 1f)
+        cena = SceneManager.GetActiveScene();
+
+        if (Time.timeScale == 1f)
         {
-            if (Input.GetKeyDown(KeyCode.I))
+            if (cena.buildIndex != 0)
             {
-                if (inventario.activeSelf == true)
+                if (Input.GetKeyDown(KeyCode.I))
                 {
-                    inventario.SetActive(false);
-                }
-                else
-                {
-                    inventario.SetActive(true);
+                    if (inventario.activeSelf == true)
+                    {
+                        inventario.SetActive(false);
+                    }
+                    else
+                    {
+                        inventario.SetActive(true);
+                    }
                 }
             }
         }
 
-        if (pauseMenu.activeSelf == false && optionsMenu.activeSelf == false && sairMenu.activeSelf == false)
+        if (Input.GetKeyDown(KeyCode.C))
         {
-            if (Input.GetKeyDown(KeyCode.C))
+            if (cena.buildIndex != 0)
             {
-                if (colecionaveis.activeSelf == true)
-                {
-                    colecionaveis.SetActive(false);
-                    Time.timeScale = 1f;
-                    script.isPaused = false;
-                }
-                else
+                if (script.isPaused == false)
                 {
                     colecionaveis.SetActive(true);
+                    script.colecionavel = true;
                     Time.timeScale = 0f;
                     script.isPaused = true;
+                }
+                else if (script.isPaused == true && colecionaveis.activeSelf == true)
+                {
+                    colecionaveis.SetActive(false);
+                    script.colecionavel = false;
+                    Time.timeScale = 1f;
+                    script.isPaused = false;
                 }
             }
         }
     }
-    /*public void botao()
-    {
-        if(colecionaveis.activeSelf == true)
-        {
-            colecionaveis.SetActive(false);
-        }
-        else
-        {
-            colecionaveis.SetActive(true);
-        }
-    }*/
 }

@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class CasaC : MonoBehaviour
 {
-    private GameObject coronel_;
     private Transicao script;
+    private GlobalVars script_;
     private bool podeInteragir;
 
     private void Start()
     {
         script = FindObjectOfType<Transicao>();
+        script_ = FindObjectOfType<GlobalVars>();
     }
     private void Update()
     {
@@ -18,8 +19,8 @@ public class CasaC : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
+                script_.A = 1;
                 script.Transition("Casa");
-                Invoke("coronel", 1.1f);
             }
         }
     }
@@ -36,10 +37,5 @@ public class CasaC : MonoBehaviour
         {
             podeInteragir = false;
         }
-    }
-    private void coronel()
-    {
-        coronel_ = GameObject.FindGameObjectWithTag("Coronel");
-        coronel_.SetActive(true);
     }
 }

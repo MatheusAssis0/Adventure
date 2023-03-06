@@ -8,43 +8,45 @@ public class Pause : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject options;
     [SerializeField] private GameObject _sair;
-    public bool isPaused;
     private Transicao script;
+    private GlobalVars script_;
 
     private void Start()
     {
         pauseMenu.SetActive(false);
         script = FindObjectOfType<Transicao>();
+        script_ = FindObjectOfType<GlobalVars>();
+        
     }
     private void Update()
     {
         #region btnEsc
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if(_sair.activeSelf == true)
+            if(_sair.activeSelf == true || script_.colecionavel == true)
             {
                 return;
             }
             else
             {
-                if (isPaused == true)
+                if (script_.isPaused == true)
                 {
                     pauseMenu.SetActive(false);
                     options.SetActive(false);
                     Time.timeScale = 1f;
-                    isPaused = false;
+                    script_.isPaused = false;
                 }
                 else
                 {
                     pauseMenu.SetActive(true);
                     Time.timeScale = 0f;
-                    isPaused = true;
+                    script_.isPaused = true;
                 }
             }
         }
         #endregion btnEsc
         #region btnP
-        if (pauseMenu.activeSelf == true || options.activeSelf == true)
+        if (pauseMenu.activeSelf == true || options.activeSelf == true || script_.colecionavel == true)
         {
             return;
         }
@@ -56,6 +58,7 @@ public class Pause : MonoBehaviour
                 {
                     _sair.SetActive(true);
                     Time.timeScale = 0f;
+                    script_.isPaused = true;
                 }
             }
             else
@@ -64,6 +67,7 @@ public class Pause : MonoBehaviour
                 {
                     _sair.SetActive(false);
                     Time.timeScale = 1f;
+                    script_.isPaused = false;
                 }
             }
         }
@@ -74,19 +78,20 @@ public class Pause : MonoBehaviour
     {
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
-        isPaused = true;
+        script_.isPaused = true;
     }
 
     public void ResumeGame()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
-        isPaused = false;
+        script_.isPaused = false;
     }
 
     public void GoToMainMenu()
     {
         Time.timeScale = 1f;
+        script_.isPaused = false;
         script.Transition("Menu");
     }
 
@@ -99,13 +104,13 @@ public class Pause : MonoBehaviour
     public void Reiniciar()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        isPaused = false;
+        script_.isPaused = false;
         Time.timeScale = 1f;
     }
 
     public void Pausar()
     {
-        if (isPaused)
+        if (script_.isPaused)
         {
             ResumeGame();
         }
