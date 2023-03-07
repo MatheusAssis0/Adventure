@@ -55,6 +55,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
         {
+            rb.velocity = new Vector2(0 , rb.velocity.y);
+            anim.SetBool("Andando", false);
             return;
         }
         else

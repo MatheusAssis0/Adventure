@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 829591521}
   - component: {fileID: 829591520}
   m_Layer: 0
-  m_Name: Pilastra 1
+  m_Name: FundoChao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,13 +283,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829591519}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.2702, z: 0.6303692}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -6.2702, z: 10.630369}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1979419388}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1089411137
 GameObject:
@@ -414,8 +414,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292278244}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.6236, y: -2.869, z: 10}
-  m_LocalScale: {x: 0.8996073, y: 0.6945254, z: 1}
+  m_LocalPosition: {x: -4.6033, y: -3.0127, z: 10}
+  m_LocalScale: {x: 0.7965929, y: 1.9733912, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1979419388}
@@ -3350,6 +3350,7 @@ Transform:
   - {fileID: 1292278246}
   - {fileID: 1754017625}
   - {fileID: 1851602825}
+  - {fileID: 829591521}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
