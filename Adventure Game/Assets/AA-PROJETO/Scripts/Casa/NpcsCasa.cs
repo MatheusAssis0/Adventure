@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class NpcsCasa : MonoBehaviour
 {
-    [SerializeField] private GameObject coronel, npc;
+    [SerializeField] private GameObject coronel, npcLouco, npcFlu;
     private GlobalVars script;
 
     private void Start()
@@ -18,17 +18,26 @@ public class NpcsCasa : MonoBehaviour
         if(script.A == 1)
         {
             coronel.SetActive(true);
-            npc.SetActive(false);
+            npcLouco.SetActive(false);
+            npcFlu.SetActive(false);
         }
-        else if(script.A == 2)
+        if(script.A == 2)
         {
             coronel.SetActive(false);
-            npc.SetActive(true);
+            npcLouco.SetActive(true);
+            npcFlu.SetActive(false);
+        }
+        if(script.A == 3)
+        {
+            coronel.SetActive(false);
+            npcLouco.SetActive(false);
+            npcFlu.SetActive(true);
         }
         else
         {
             coronel.SetActive(false);
-            npc.SetActive(false);
+            npcLouco.SetActive(false);
+            npcFlu.SetActive(false);
         }
     }
 }

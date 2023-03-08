@@ -24,7 +24,7 @@ public class CasasVila : MonoBehaviour
                 {
                     if (Input.GetKeyDown(KeyCode.E))
                     {
-                        script_.A = 2;
+                        script_.A = Random.Range(2,4);
                         script.Transition("Casa");
                     }
                 }
