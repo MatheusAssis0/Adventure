@@ -21,13 +21,13 @@ public class NpcsCasa : MonoBehaviour
             npcLouco.SetActive(false);
             npcFlu.SetActive(false);
         }
-        if(script.A == 2)
+        else if(script.A == 2)
         {
             coronel.SetActive(false);
             npcLouco.SetActive(true);
             npcFlu.SetActive(false);
         }
-        if(script.A == 3)
+        else if(script.A == 3)
         {
             coronel.SetActive(false);
             npcLouco.SetActive(false);
