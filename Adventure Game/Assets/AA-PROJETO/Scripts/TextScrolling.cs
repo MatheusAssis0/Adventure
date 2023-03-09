@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class ObjetivoAtual : MonoBehaviour
+public class TextScrolling : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI texto;         
     private float velocidade = 30f; 

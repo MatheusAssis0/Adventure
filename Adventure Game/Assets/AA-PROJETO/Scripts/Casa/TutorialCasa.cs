@@ -1,0 +1,36 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TutorialCasa : MonoBehaviour
+{
+    [SerializeField] private GameObject tutorial1, tutorial2, Tutorial;
+
+
+    private void Update()
+    {
+        if(tutorial1.activeSelf == true && Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.Space))
+        {
+            Invoke("desligarTutorial1", 2.5f);
+            Invoke("ligarTutorial2", 2.5f);
+        }
+
+        if(tutorial2.activeSelf == true)
+        {
+            Invoke("desligarTutorial2", 2.5f);
+        }
+    }
+    private void desligarTutorial1()
+    {
+        tutorial1.SetActive(false);
+    }
+    private void desligarTutorial2()
+    {
+        Tutorial.SetActive(false);
+    }
+
+    private void ligarTutorial2()
+    {
+        tutorial2.SetActive(true);
+    }
+}
