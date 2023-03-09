@@ -20,4 +20,9 @@ public class TransicaoManager : MonoBehaviour
     {
         script.Transition("Vila");
     }
+
+    public void VilaCopas()
+    {
+        script.Transition("Vila copas");
+    }
 }
