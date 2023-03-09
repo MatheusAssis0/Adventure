@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
                 {
                     bCollider.isTrigger = true;
-                    Invoke("LigarColisor", 0.2f);
+                    Invoke("LigarColisor", 0.25f);
                 }
             }
             if (rb.velocity.x == 0f)

@@ -6,13 +6,16 @@ using UnityEngine.SceneManagement;
 public class TransicaoManager : MonoBehaviour
 {
     private Transicao script;
+    private GlobalVars script_;
 
     private void Start()
     {
         script = FindObjectOfType<Transicao>();
+        script_ = FindObjectOfType<GlobalVars>();
     }
     public void Play()
     {
+        script_.T = 1;
         script.Transition("Casa");
     }
 

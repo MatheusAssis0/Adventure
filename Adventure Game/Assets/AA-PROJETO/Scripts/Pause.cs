@@ -90,6 +90,7 @@ public class Pause : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        script_.A = 0;
         Time.timeScale = 1f;
         script_.isPaused = false;
         script.Transition("Menu");
