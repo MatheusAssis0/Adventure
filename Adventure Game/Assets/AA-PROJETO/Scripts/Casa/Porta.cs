@@ -5,10 +5,12 @@ using UnityEngine;
 public class Porta : MonoBehaviour
 {
     private TransicaoManager script;
+    private GlobalVars script_;
     private bool podeInteragir;
     private void Start()
     {
         script = FindObjectOfType<TransicaoManager>();
+        script_ = FindObjectOfType<GlobalVars>();
     }
     private void Update()
     {
@@ -16,6 +18,7 @@ public class Porta : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
+                script_.T = 0;
                 script.Vila();
             }
         }
