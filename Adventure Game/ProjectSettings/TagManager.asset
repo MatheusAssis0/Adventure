@@ -8,6 +8,8 @@ TagManager:
   - E
   - Colecionaveis
   - Coronel
+  - objt1
+  - objt2
   layers:
   - Default
   - TransparentFX

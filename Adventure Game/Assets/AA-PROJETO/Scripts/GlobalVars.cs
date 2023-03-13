@@ -7,6 +7,7 @@ public class GlobalVars : MonoBehaviour
     public float A;
     public float T;
     public float introVila;
+    public float objtvCasa;
     public bool colecionavel;
     public bool isPaused;
 }

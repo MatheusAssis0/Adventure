@@ -21,7 +21,7 @@ public class TutorialCasa : MonoBehaviour
             Tutorial.SetActive(true);
         }
 
-        if(tutorial1.activeSelf == true && Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.Space))
+        if(tutorial1.activeSelf == true && Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             script.T = 2;
             Invoke("desligarTutorial1", 2.5f);

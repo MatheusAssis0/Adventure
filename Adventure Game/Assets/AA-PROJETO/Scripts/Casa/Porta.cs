@@ -19,11 +19,16 @@ public class Porta : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
-                Destroy(obj1);
-                obj2.SetActive(true);
+                script_.objtvCasa = 1;
                 script_.T = 0;
                 script.Vila();
             }
+        }
+
+        if(script_.objtvCasa == 1)
+        {
+            obj1.SetActive(false);
+            obj2.SetActive(true);
         }
     }
 
