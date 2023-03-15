@@ -10593,8 +10593,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfc4357eb398cb41a9d8d867590d7db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialogo1: {fileID: 0}
-  Dialogo2: {fileID: 0}
+  Dialogo1: {fileID: 1088534948}
+  Dialogo2: {fileID: 383821624}
 --- !u!114 &1160970306
 MonoBehaviour:
   m_ObjectHideFlags: 0
