@@ -7,6 +7,7 @@ public class Pause : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject options;
+    [SerializeField] private GameObject controles;
     [SerializeField] private GameObject _sair;
     private Transicao script;
     private GlobalVars script_;
@@ -33,6 +34,7 @@ public class Pause : MonoBehaviour
                 {
                     pauseMenu.SetActive(false);
                     options.SetActive(false);
+                    controles.SetActive(false);
                     Time.timeScale = 1f;
                     script_.isPaused = false;
                 }
@@ -46,7 +48,7 @@ public class Pause : MonoBehaviour
         }
         #endregion btnEsc
         #region btnP
-        if (pauseMenu.activeSelf == true || options.activeSelf == true || script_.colecionavel == true)
+        if (pauseMenu.activeSelf == true || options.activeSelf == true || script_.colecionavel == true || controles.activeSelf == true)
         {
             return;
         }

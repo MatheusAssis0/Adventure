@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class Fada : MonoBehaviour
 {
-    private GameObject item1;
+    private GlobalVars script;
 
     private void Start()
     {
-        if (item1 == null)
-        {
-            item1 = GameObject.FindGameObjectWithTag("Item1");
-        }
+        script = FindObjectOfType<GlobalVars>();
     }
     public void darItem1()
     {
-        item1.SetActive(true);
+        script.itemX = 0;
     }
 }

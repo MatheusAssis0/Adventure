@@ -435,6 +435,64 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoE: {fileID: 270894804}
+--- !u!1 &136410243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 136410244}
+  - component: {fileID: 136410245}
+  m_Layer: 6
+  m_Name: Chao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &136410244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136410243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1109267146}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &136410245
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136410243}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 58.127792, y: -2.5503178}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 175.97864, y: 0.56680775}
+  m_EdgeRadius: 0
 --- !u!1 &170892315
 GameObject:
   m_ObjectHideFlags: 0
@@ -4447,6 +4505,7 @@ Transform:
   - {fileID: 1365264121764217244}
   - {fileID: 410465177}
   - {fileID: 2051529124}
+  - {fileID: 136410244}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8139,6 +8198,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 808854654277921381, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
   m_PrefabInstance: {fileID: 1921624586}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1921624589 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7305024051966181656, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+  m_PrefabInstance: {fileID: 1921624586}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1944264480
 GameObject:
   m_ObjectHideFlags: 0
@@ -8572,7 +8636,6 @@ GameObject:
   - component: {fileID: 2038685910}
   - component: {fileID: 2038685912}
   - component: {fileID: 2038685911}
-  - component: {fileID: 2038685913}
   m_Layer: 6
   m_Name: Chao
   m_TagString: Untagged
@@ -16014,22 +16077,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!19719996 &2038685913
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038685909}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.156}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0
 --- !u!1 &2039737078
 GameObject:
   m_ObjectHideFlags: 0
@@ -19163,6 +19210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1921624587}
   options: {fileID: 1921624588}
+  controles: {fileID: 1921624589}
   _sair: {fileID: 1463622171}
 --- !u!1 &7666861425278107798
 GameObject:
