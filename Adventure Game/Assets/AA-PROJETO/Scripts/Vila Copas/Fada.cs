@@ -12,6 +12,6 @@ public class Fada : MonoBehaviour
     }
     public void darItem1()
     {
-        script.itemX = 0;
+        script.itens = 0;
     }
 }

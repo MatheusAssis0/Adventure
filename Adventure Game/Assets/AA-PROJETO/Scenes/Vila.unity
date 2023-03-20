@@ -9161,6 +9161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoaderCircle
       objectReference: {fileID: 0}
+    - target: {fileID: 5150033075457029614, guid: 95883309f398fea46b8afa0d3174e9aa, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95883309f398fea46b8afa0d3174e9aa, type: 3}
 --- !u!1 &797552587

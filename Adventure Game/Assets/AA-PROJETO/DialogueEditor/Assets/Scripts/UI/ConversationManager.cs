@@ -108,6 +108,17 @@ namespace DialogueEditor
             Instance = null;
         }
 
+        public void finalizaTexto()
+        {
+            ScrollSpeed = 0;
+            Invoke("textoSpeedNormal", 1f);
+        }
+
+        private void textoSpeedNormal()
+        {
+            ScrollSpeed = 0.45f;
+        }
+
         private void Update()
         {
             switch (m_state)

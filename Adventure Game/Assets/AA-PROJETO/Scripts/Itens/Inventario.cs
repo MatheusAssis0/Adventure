@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Inventario : MonoBehaviour
 {
-    [SerializeField] private GameObject[] itemX;
-    [SerializeField] private GameObject[] itemQ;
+    [SerializeField] private GameObject[] itens;
     private GlobalVars script;
 
     private void Start()
@@ -15,46 +14,11 @@ public class Inventario : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.I))
+        for (int i = 0; i < 8; i++)
         {
-            ChecarItensX();
-            ChecarItensQ();
-        }
-
-        /*for (int i = 0; i < 3; i++)
-        {
-            if (script.itemX == i)
+            if (script.itens == i)
             {
-                itemX[i].SetActive(true);
-            }
-        }
-        for (int i = 0; i < 4; i++)
-        {
-            if (script.itemQ == i)
-            {
-                itemQ[i].SetActive(true);
-            }
-        }*/
-    }
-
-    private void ChecarItensX()
-    {
-        for (int i = 0; i < 3; i++)
-        {
-            if (script.itemX == i)
-            {
-                itemX[i].SetActive(true);
-            }
-        }
-    }
-
-    private void ChecarItensQ()
-    {
-        for (int i = 0; i < 4; i++)
-        {
-            if (script.itemQ == i)
-            {
-                itemQ[i].SetActive(true);
+                itens[i].SetActive(true);
             }
         }
     }
