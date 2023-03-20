@@ -1886,13 +1886,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1563485908676183488, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3909
+      value: 107.2
       objectReference: {fileID: 0}
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1933,6 +1937,10 @@ PrefabInstance:
     - target: {fileID: 1563485908676183502, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_Name
       value: Fim
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563485908676183502, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
@@ -2901,6 +2909,7 @@ GameObject:
   - component: {fileID: 1012757702}
   - component: {fileID: 1012757701}
   - component: {fileID: 1012757704}
+  - component: {fileID: 1012757705}
   m_Layer: 0
   m_Name: Fada
   m_TagString: Untagged
@@ -3048,6 +3057,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a822e86dde0efbc42afd6bd7cd131639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1012757705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012757698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132ae9e088f0a96498d65d2b1c459173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogo1: {fileID: 1513535174}
+  Dialogo2: {fileID: 428624938}
 --- !u!1 &1026386275
 GameObject:
   m_ObjectHideFlags: 0
@@ -7321,6 +7344,7 @@ GameObject:
   - component: {fileID: 1642403082}
   - component: {fileID: 1642403081}
   - component: {fileID: 1642403086}
+  - component: {fileID: 1642403087}
   m_Layer: 0
   m_Name: NpcSenhora
   m_TagString: Untagged
@@ -7478,6 +7502,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoE: {fileID: 270894804}
+--- !u!61 &1642403087
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642403079}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0069885254, y: -0.0489195}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.85, y: 2.3}
+    newSize: {x: 0.37, y: 0.46}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6712799, y: 1.8014866}
+  m_EdgeRadius: 0
 --- !u!1 &1774264769
 GameObject:
   m_ObjectHideFlags: 0
@@ -7907,6 +7957,7 @@ GameObject:
   - component: {fileID: 1918712982}
   - component: {fileID: 1918712981}
   - component: {fileID: 1918712980}
+  - component: {fileID: 1918712985}
   m_Layer: 0
   m_Name: NpcGordo
   m_TagString: Untagged
@@ -8051,6 +8102,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1918712985
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918712978}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.072057724, y: -0.121055126}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.35}
+    newSize: {x: 0.37, y: 0.46}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1410866, y: 2.1078897}
+  m_EdgeRadius: 0
 --- !u!1001 &1921624586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19189,6 +19266,7 @@ GameObject:
   - component: {fileID: 7654363862259273296}
   - component: {fileID: 7654363862259273309}
   - component: {fileID: 7555366820115407498}
+  - component: {fileID: 7654363862259273310}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -19212,6 +19290,26 @@ MonoBehaviour:
   options: {fileID: 1921624588}
   controles: {fileID: 1921624589}
   _sair: {fileID: 1463622171}
+--- !u!114 &7654363862259273310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7654363862259273302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d6e0c744e4cf748954acfaafd90539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 0
+  T: 0
+  introVila: 0
+  objtvCasa: 0
+  itemX: 0
+  itemQ: 0
+  colecionavel: 0
+  isPaused: 0
 --- !u!1 &7666861425278107798
 GameObject:
   m_ObjectHideFlags: 0
