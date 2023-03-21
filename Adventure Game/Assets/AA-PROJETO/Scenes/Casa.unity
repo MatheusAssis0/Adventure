@@ -10237,8 +10237,8 @@ GameObject:
   - component: {fileID: 2138420437}
   - component: {fileID: 2138420436}
   - component: {fileID: 2138420435}
-  - component: {fileID: 2138420434}
   - component: {fileID: 2138420433}
+  - component: {fileID: 2138420441}
   m_Layer: 0
   m_Name: Npc Madame Flu
   m_TagString: Untagged
@@ -10260,21 +10260,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogo1: {fileID: 337133167}
   Dialogo2: {fileID: 1968689281}
---- !u!114 &2138420434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2138420432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ecbbb6733609f54780d922131a2ca9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 2138420435}
-  anim: {fileID: 2138420436}
-  speed: 3
 --- !u!50 &2138420435
 Rigidbody2D:
   serializedVersion: 4
@@ -10424,6 +10409,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138420441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138420432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d895e70b830365143ab97fe68a253d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2138420435}
+  anim: {fileID: 2138420436}
+  speed: 3
+  patrolRange: 2.5
+  tempoDeEspera: 5
 --- !u!224 &51727682722899501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10755,8 +10757,8 @@ GameObject:
   - component: {fileID: 490962062279802906}
   - component: {fileID: 490962062279802981}
   - component: {fileID: 490962062279802982}
-  - component: {fileID: 490962062279802983}
   - component: {fileID: 490962062279802984}
+  - component: {fileID: 490962062279802985}
   m_Layer: 0
   m_Name: Npc Bill, o Louco
   m_TagString: Untagged
@@ -10805,21 +10807,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &490962062279802983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490962062279802980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ecbbb6733609f54780d922131a2ca9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 490962062279802982}
-  anim: {fileID: 490962062279802981}
-  speed: 3
 --- !u!114 &490962062279802984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10833,6 +10820,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogo1: {fileID: 488639900}
+--- !u!114 &490962062279802985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490962062279802980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d895e70b830365143ab97fe68a253d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 490962062279802982}
+  anim: {fileID: 490962062279802981}
+  speed: 3
+  patrolRange: 2.5
+  tempoDeEspera: 5
 --- !u!4 &763281519083499349
 Transform:
   m_ObjectHideFlags: 0

@@ -92,10 +92,15 @@ public class Pause : MonoBehaviour
 
     public void GoToMainMenu()
     {
-        script_.A = 0;
         Time.timeScale = 1f;
         script_.isPaused = false;
         script.Transition("Menu");
+        script_.A = 0;
+        script_.T = 0;
+        script_.C = 0;
+        script_.introVila = 0;
+        script_.objtvCasa = 0;
+        script_.itens = -1;
     }
 
     public void QuitGame()
