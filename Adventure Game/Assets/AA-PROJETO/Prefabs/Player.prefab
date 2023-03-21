@@ -161,6 +161,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   sairMenu: {fileID: 0}
   optionsMenu: {fileID: 0}
+  controlesMenu: {fileID: 0}
   bCollider: {fileID: 3708520696249363075}
   anim: {fileID: 3708520696249363080}
 --- !u!61 &3708520696249363087

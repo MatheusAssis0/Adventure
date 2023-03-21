@@ -14,13 +14,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject sairMenu;
     [SerializeField] private GameObject optionsMenu;
+    [SerializeField] private GameObject controlesMenu;
     [SerializeField] private BoxCollider2D bCollider;
     [SerializeField] private Animator anim;
     private bool collisionPlatform;
 
     void Update()
     {
-        if(ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive || sairMenu.activeSelf == true || pauseMenu.activeSelf == true || optionsMenu.activeSelf == true)
+        if(ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive || sairMenu.activeSelf == true || pauseMenu.activeSelf == true || optionsMenu.activeSelf == true || controlesMenu.activeSelf == true)
         {
             return;
         }

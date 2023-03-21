@@ -2674,6 +2674,10 @@ PrefabInstance:
       propertyPath: optionsMenu
       value: 
       objectReference: {fileID: 808854653601795773}
+    - target: {fileID: 3708520696249363086, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: controlesMenu
+      value: 
+      objectReference: {fileID: 2439333043699345550}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
 --- !u!1 &412687808

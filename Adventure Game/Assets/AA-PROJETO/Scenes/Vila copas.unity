@@ -1123,6 +1123,10 @@ PrefabInstance:
       propertyPath: optionsMenu
       value: 
       objectReference: {fileID: 1921624588}
+    - target: {fileID: 3708520696249363086, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: controlesMenu
+      value: 
+      objectReference: {fileID: 1921624589}
     - target: {fileID: 3708520696249363087, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_Size.x
       value: 0.97241944

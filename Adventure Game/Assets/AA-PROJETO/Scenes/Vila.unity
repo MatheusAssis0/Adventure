@@ -16192,6 +16192,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 210627224}
   sairMenu: {fileID: 864492619}
   optionsMenu: {fileID: 1304321457}
+  controlesMenu: {fileID: 1304321456}
   bCollider: {fileID: 3708520696596074713}
   anim: {fileID: 3708520696596074706}
 --- !u!61 &3708520696596074709
