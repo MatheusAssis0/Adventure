@@ -5,9 +5,11 @@ using UnityEngine;
 public class NarradorFloresta : MonoBehaviour
 {
     [SerializeField] private GameObject texto1, texto2, texto3, canvas;
+    [SerializeField] private Animator anim;
 
     private void Start()
-    { 
+    {
+        anim.SetBool("Andando", false);
         Invoke("Texto2", 5f);
         Invoke("Texto3", 10f);
         Invoke("Fim", 15f);

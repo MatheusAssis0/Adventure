@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
     private float horizontal;
     [SerializeField]private float velocidade;
     [SerializeField]private float forcaPulo;
-    private bool isFacingRight = true;
+    public bool isFacingRight = true;
+    public Transform player;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -76,9 +77,9 @@ public class PlayerMovement : MonoBehaviour
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
             isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
+            Vector3 localScale = player.transform.localScale;
             localScale.x *= -1f;
-            transform.localScale = localScale;
+            player.transform.localScale = localScale;
         }
     }
     

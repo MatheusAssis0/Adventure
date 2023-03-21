@@ -35,7 +35,6 @@ public class CasasVila : MonoBehaviour
                 {
                     if (Input.GetKeyDown(KeyCode.E))
                     {
-                        script_.A = 1;
                         script.Transition("Casa");
                     }
                 }

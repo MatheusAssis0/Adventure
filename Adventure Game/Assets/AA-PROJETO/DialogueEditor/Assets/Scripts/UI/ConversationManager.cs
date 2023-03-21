@@ -45,6 +45,7 @@ namespace DialogueEditor
         // Base panels
         public RectTransform DialoguePanel;
         public RectTransform OptionsPanel;
+        public GameObject skipButton;
         // Dialogue UI
         public Image DialogueBackground;
         public Image NpcIcon;
@@ -89,6 +90,7 @@ namespace DialogueEditor
 
         private void Awake()
         {
+            skipButton = GameObject.FindGameObjectWithTag("skp");
             // Destroy myself if I am not the singleton
             if (Instance != null && Instance != this)
             {
@@ -111,7 +113,6 @@ namespace DialogueEditor
         public void finalizaTexto()
         {
             ScrollSpeed = 0;
-            Invoke("textoSpeedNormal", 1f);
         }
 
         private void textoSpeedNormal()
@@ -369,6 +370,7 @@ namespace DialogueEditor
                 if (m_scrollIndex >= m_targetScrollTextCount)
                 {
                     SetState(eState.TransitioningOptionsOn);
+                    textoSpeedNormal();
                 }
             }
         }
@@ -640,6 +642,7 @@ namespace DialogueEditor
         {
             DialoguePanel.gameObject.SetActive(true);
             OptionsPanel.gameObject.SetActive(true);
+            skipButton.SetActive(true);
 
             if (BackgroundImage != null)
             {
@@ -658,6 +661,7 @@ namespace DialogueEditor
         {
             DialoguePanel.gameObject.SetActive(false);
             OptionsPanel.gameObject.SetActive(false);
+            skipButton.SetActive(false);
             SetState(eState.Off);
 #if UNITY_EDITOR
             // Debug.Log("[ConversationManager]: Conversation UI off.");
