@@ -2979,10 +2979,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasSair
       objectReference: {fileID: 0}
-    - target: {fileID: 2618574002347468931, guid: 2da06d62affe8b54ead15da05f39c118, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 2618574002347468943, guid: 2da06d62affe8b54ead15da05f39c118, type: 3}
       propertyPath: m_Camera
       value: 

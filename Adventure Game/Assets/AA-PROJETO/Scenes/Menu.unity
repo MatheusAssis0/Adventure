@@ -389,6 +389,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   A: 0
   T: 0
+  C: 0
+  introVila: 0
+  objtvCasa: 0
+  itens: 0
   colecionavel: 0
   isPaused: 0
 --- !u!4 &310004662
@@ -2395,6 +2399,18 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8965152986356585976, guid: fe15b614e3183ae4698fef99a10051cd, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965152986356585976, guid: fe15b614e3183ae4698fef99a10051cd, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965152986356585976, guid: fe15b614e3183ae4698fef99a10051cd, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965152986356585976, guid: fe15b614e3183ae4698fef99a10051cd, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
@@ -2444,7 +2460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8965152986356585978, guid: fe15b614e3183ae4698fef99a10051cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -49.999603
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8965152986356585978, guid: fe15b614e3183ae4698fef99a10051cd, type: 3}
       propertyPath: m_LocalRotation.w

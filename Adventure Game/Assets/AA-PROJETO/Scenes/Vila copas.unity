@@ -611,6 +611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: botaoE
       objectReference: {fileID: 0}
+    - target: {fileID: 3083171433121315445, guid: e16eaffb12e258d4bb3b4edab97cdebe, type: 3}
+      propertyPath: m_SortingOrder
+      value: -2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e16eaffb12e258d4bb3b4edab97cdebe, type: 3}
 --- !u!1 &270894804 stripped
@@ -1890,17 +1894,21 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1563485908676183488, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 107.2
+      value: 111.95
       objectReference: {fileID: 0}
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5166
+      value: 5.52
       objectReference: {fileID: 0}
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2053,6 +2061,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1239492732}
+    - target: {fileID: 3204334236204652471, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -133
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204334236204652471, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -54.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4871905283485592286, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
       propertyPath: m_TagString
       value: skp
@@ -19345,6 +19361,7 @@ GameObject:
   - component: {fileID: 7654363862259273296}
   - component: {fileID: 7654363862259273309}
   - component: {fileID: 7555366820115407498}
+  - component: {fileID: 7654363862259273310}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -19368,6 +19385,26 @@ MonoBehaviour:
   options: {fileID: 1921624588}
   controles: {fileID: 1921624589}
   _sair: {fileID: 1463622171}
+--- !u!114 &7654363862259273310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7654363862259273302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d6e0c744e4cf748954acfaafd90539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 0
+  T: 0
+  C: 0
+  introVila: 0
+  objtvCasa: 0
+  itens: 0
+  colecionavel: 0
+  isPaused: 0
 --- !u!1 &7666861425278107798
 GameObject:
   m_ObjectHideFlags: 0
