@@ -7,6 +7,7 @@ public class GlobalVars : MonoBehaviour
 {
     public float A;
     public float T;
+    public float C;
     public float introVila;
     public float objtvCasa;
     public float itens;
