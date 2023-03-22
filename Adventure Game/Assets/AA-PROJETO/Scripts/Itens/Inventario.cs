@@ -22,5 +22,13 @@ public class Inventario : MonoBehaviour
                 itens[i].SetActive(true);
             }
         }
+
+        if (script.itens == -1f)
+        {
+            foreach (GameObject obj in itens)
+            {
+                obj.SetActive(false);
+            }
+        }
     }
 }

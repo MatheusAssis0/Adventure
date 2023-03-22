@@ -98,6 +98,7 @@ public class Pause : MonoBehaviour
         script_.A = 0;
         script_.T = 0;
         script_.C = 0;
+        script_.CC = 0;
         script_.introVila = 0;
         script_.objtvCasa = 0;
         script_.itens = -1;

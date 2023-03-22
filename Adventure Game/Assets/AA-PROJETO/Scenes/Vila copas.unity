@@ -8150,6 +8150,7 @@ GameObject:
   - component: {fileID: 1918712981}
   - component: {fileID: 1918712980}
   - component: {fileID: 1918712985}
+  - component: {fileID: 1918712986}
   m_Layer: 0
   m_Name: NpcGordo
   m_TagString: Untagged
@@ -8322,6 +8323,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1410866, y: 2.1078897}
   m_EdgeRadius: 0
+--- !u!114 &1918712986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918712978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ad3c28cdebc864495bf0efc14a5a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botaoE: {fileID: 270894804}
 --- !u!1001 &1921624586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17981,6 +17995,7 @@ GameObject:
   - component: {fileID: 4550648239631674494}
   - component: {fileID: 4550648239631674498}
   - component: {fileID: 4550648239631674497}
+  - component: {fileID: 4550648239631674499}
   m_Layer: 0
   m_Name: Casa 4
   m_TagString: Untagged
@@ -18027,6 +18042,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8745422, y: 3.3302503}
   m_EdgeRadius: 0
+--- !u!114 &4550648239631674499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4550648239631674495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfd560da075c014c9576f6e4de7fc4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4872454416793279600
 Transform:
   m_ObjectHideFlags: 0
@@ -19461,6 +19488,7 @@ GameObject:
   - component: {fileID: 7654363862259273296}
   - component: {fileID: 7654363862259273309}
   - component: {fileID: 7555366820115407498}
+  - component: {fileID: 7654363862259273310}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -19484,6 +19512,19 @@ MonoBehaviour:
   options: {fileID: 1921624588}
   controles: {fileID: 1921624589}
   _sair: {fileID: 1463622171}
+--- !u!114 &7654363862259273310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7654363862259273302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257c4277d3030c646a0fb16348efc165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main: {fileID: 1239492732}
 --- !u!1 &7666861425278107798
 GameObject:
   m_ObjectHideFlags: 0
