@@ -28,4 +28,19 @@ public class TransicaoManager : MonoBehaviour
     {
         script.Transition("Vila copas");
     }
+
+    public void FlorestaDeCopas()
+    {
+        script.Transition("Floresta de Copas");
+    }
+
+    public void PonteDoCavaleiro()
+    {
+        script.Transition("Ponte cavaleiro");
+    }
+
+    public void CasaDaBruxa()
+    {
+        script.Transition("Bruxa");
+    }
 }

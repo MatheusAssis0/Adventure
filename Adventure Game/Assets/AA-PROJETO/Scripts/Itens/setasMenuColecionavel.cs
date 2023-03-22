@@ -11,13 +11,13 @@ public class setasMenuColecionavel : MonoBehaviour
     {
         if(_index == 0)
         {
-            _index = 1;
-            colecionaveis[1].SetActive(true);
+            _index = 3;
+            colecionaveis[3].SetActive(true);
             colecionaveis[0].SetActive(false);
         }
         else
         {
-            _index = Mathf.Clamp(_index - 1, 0, 1);
+            _index = Mathf.Clamp(_index - 1, 0, 3);
             colecionaveis[_index].SetActive(true);
             colecionaveis[_index + 1].SetActive(false);
         }
@@ -25,15 +25,15 @@ public class setasMenuColecionavel : MonoBehaviour
 
     public void Direita()
     {
-        if (_index == 1)
+        if (_index == 3)
         {
             _index = 0;
             colecionaveis[0].SetActive(true);
-            colecionaveis[1].SetActive(false);
+            colecionaveis[3].SetActive(false);
         }
         else
         {
-            _index = Mathf.Clamp(_index + 1, 0, 1);
+            _index = Mathf.Clamp(_index + 1, 0, 3);
             colecionaveis[_index].SetActive(true);
             colecionaveis[_index - 1].SetActive(false);
         }
