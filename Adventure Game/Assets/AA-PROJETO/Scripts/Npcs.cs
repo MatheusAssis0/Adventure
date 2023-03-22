@@ -10,6 +10,7 @@ public class Npcs : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float patrolRange;
     [SerializeField] private float tempoDeEspera = 5f;
+    private bool conversando;
     private PlayerMovement script;
     private Vector2 destino, velocity;
     private float proximaPatrulha = 0f;
@@ -52,10 +53,9 @@ public class Npcs : MonoBehaviour
 
     private void Update()
     {
-        if(ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
+        if(conversando)
         {
             velocity = Vector2.zero;
-            TeleportaPlayer();
             anim.SetBool("Andando", false);
             return;
         }
@@ -113,7 +113,7 @@ public class Npcs : MonoBehaviour
         if(transform.localScale.x > 0)
         {
             Vector3 localScale = script.player.transform.localScale;
-            localScale.x *= -1f;
+            localScale.x = -1f;
             script.player.transform.localScale = localScale;
             script.isFacingRight = false;
 
@@ -132,6 +132,17 @@ public class Npcs : MonoBehaviour
             localPos.x = transform.position.x - 1.1f;
             script.player.transform.position = localPos;
         }
+    }
+
+    public void IniciarConversa()
+    {
+        conversando = true;
+        TeleportaPlayer();
+    }
+
+    public void FinalizarConversa()
+    {
+        conversando = false;
     }
 }
 

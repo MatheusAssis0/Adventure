@@ -18,9 +18,9 @@ public class VisualDialogue : MonoBehaviour
         texto.color = enigmaColor;
     }
 
-    public void ColocarItalico()
+    public void ColocarItalicoBold()
     {
-        texto.fontStyle = FontStyles.Italic;
+        texto.fontStyle = FontStyles.Italic | FontStyles.Bold;
     }
 
     public void TirarItalico()
