@@ -5,18 +5,20 @@ using DialogueEditor;
 
 public class GlobalVars : MonoBehaviour
 {
-    public float A;
-    public float T;
-    public float C;
-    public float CC;
-    public float introVila;
-    public float objtvCasa;
-    public float itens;
+    public int A;
+    public int T;
+    public int C;
+    public int CC;
+    public int introVila;
+    public int objtvCasa;
+    public int itens;
+    public int colecionaveis;
     public bool colecionavel;
     public bool isPaused;
 
     private void Awake()
     {
         itens = -1;
+        colecionaveis= -1;
     }
 }

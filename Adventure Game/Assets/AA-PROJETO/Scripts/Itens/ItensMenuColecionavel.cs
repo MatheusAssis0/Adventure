@@ -4,19 +4,15 @@ using UnityEngine;
 
 public class ItensMenuColecionavel : MonoBehaviour
 {
-    [SerializeField] private GameObject itemInfo, itemDica, item1, item2;
-    private Colecionaveis script;
-    public enum Opcoes {item1, item2 };
+    [SerializeField] private GameObject itemInfo, itemDica, item1, item2, item3, item4, item5;
+    public enum Opcoes {item1, item2, item3, item4, item5 };
     public Opcoes opcoes;
 
 
-    private void Start()
-    {
-        script = FindObjectOfType<Colecionaveis>();
-    }
+    
     private void Update()
     {
-        switch(opcoes)
+       /* switch(opcoes)
         {
             case (Opcoes.item1):
                 if(script.itemUm.Equals(true))
@@ -43,6 +39,44 @@ public class ItensMenuColecionavel : MonoBehaviour
                     itemDica.SetActive(true);
                 }
                 break;
+
+            case (Opcoes.item3):
+                if (script.itemDois.Equals(true))
+                {
+                    itemInfo.SetActive(true);
+                    itemDica.SetActive(false);
+                }
+                else
+                {
+                    itemInfo.SetActive(false);
+                    itemDica.SetActive(true);
+                }
+                break;
+
+            case (Opcoes.item4):
+                if (script.itemDois.Equals(true))
+                {
+                    itemInfo.SetActive(true);
+                    itemDica.SetActive(false);
+                }
+                else
+                {
+                    itemInfo.SetActive(false);
+                    itemDica.SetActive(true);
+                }
+                break;
+
+            case (Opcoes.item5):
+                if (script.itemDois.Equals(true))
+                {
+                    itemInfo.SetActive(true);
+                    itemDica.SetActive(false);
+                }
+                else
+                {
+                    itemInfo.SetActive(false);
+                    itemDica.SetActive(true);
+                }
+                break;*/
         }
     }
-}

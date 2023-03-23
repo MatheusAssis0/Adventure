@@ -101,7 +101,8 @@ public class Pause : MonoBehaviour
         script_.CC = 0;
         script_.introVila = 0;
         script_.objtvCasa = 0;
-        script_.itens = -1;
+        script_.colecionaveis = -1;
+        script_.colecionaveis = -1;
     }
 
     public void QuitGame()

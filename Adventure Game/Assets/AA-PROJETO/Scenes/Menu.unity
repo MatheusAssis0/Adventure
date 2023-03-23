@@ -390,9 +390,11 @@ MonoBehaviour:
   A: 0
   T: 0
   C: 0
+  CC: 0
   introVila: 0
   objtvCasa: 0
-  itens: 0
+  itens: -1
+  colecionaveis: -1
   colecionavel: 0
   isPaused: 0
 --- !u!4 &310004662
