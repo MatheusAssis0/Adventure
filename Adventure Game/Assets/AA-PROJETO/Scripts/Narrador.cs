@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NarradorVila : MonoBehaviour
+public class Narrador : MonoBehaviour
 {
     [SerializeField] private GameObject texto1, texto2, texto3, texto4, canvas;
     private GlobalVars script;

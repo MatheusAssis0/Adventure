@@ -6680,6 +6680,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4425374158093623346, guid: aa40b8d527996024cb8129bea43d9654, type: 3}
   m_PrefabInstance: {fileID: 2079655542}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2079655544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8649669997218607332, guid: aa40b8d527996024cb8129bea43d9654, type: 3}
+  m_PrefabInstance: {fileID: 2079655542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2147355543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6832,6 +6837,7 @@ GameObject:
   - component: {fileID: 2621923203117826994}
   - component: {fileID: 2774565047886425957}
   - component: {fileID: 2774565047886425958}
+  - component: {fileID: 2774565047886425959}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -6913,3 +6919,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a822e86dde0efbc42afd6bd7cd131639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2774565047886425959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2621923203117827001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b69b1ed196e4a747b28a4f11b282de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetivo1: {fileID: 2079655544}
+  objetivo2: {fileID: 289451370}
+  objetivo3: {fileID: 229789350}

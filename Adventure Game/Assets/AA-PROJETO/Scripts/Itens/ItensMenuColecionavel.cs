@@ -15,15 +15,10 @@ public class ItensMenuColecionavel : MonoBehaviour
        /* switch(opcoes)
         {
             case (Opcoes.item1):
-                if(script.itemUm.Equals(true))
+                if(script.colecionaveis == 0)
                 {
                     itemInfo.SetActive(true);
                     itemDica.SetActive(false);
-                }
-                else
-                {
-                    itemInfo.SetActive(false);
-                    itemDica.SetActive(true);
                 }
                 break;
 
