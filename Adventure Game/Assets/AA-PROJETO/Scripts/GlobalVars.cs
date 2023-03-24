@@ -15,6 +15,8 @@ public class GlobalVars : MonoBehaviour
     public int colecionaveis;
     public bool colecionavel;
     public bool isPaused;
+    public bool enigmaTroll, enigmaBruxa;
+    public bool narradorTroll, narradorBruxa;
 
     private void Awake()
     {
