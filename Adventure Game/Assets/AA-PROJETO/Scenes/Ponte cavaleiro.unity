@@ -7207,6 +7207,7 @@ GameObject:
   - component: {fileID: 1080566600857270585}
   - component: {fileID: 1080566600857270586}
   - component: {fileID: 1080566600857270587}
+  - component: {fileID: 1080566600857270588}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -7281,3 +7282,29 @@ MonoBehaviour:
   objetivo1: {fileID: 429218066}
   objetivo2: {fileID: 240579346}
   objetivo3: {fileID: 1945919}
+--- !u!114 &1080566600857270588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872920896677008868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d6e0c744e4cf748954acfaafd90539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 0
+  T: 0
+  C: 0
+  CC: 0
+  introVila: 0
+  objtvCasa: 0
+  itens: 0
+  colecionaveis: 0
+  colecionavel: 0
+  isPaused: 0
+  enigmaTroll: 0
+  enigmaBruxa: 0
+  narradorTroll: 0
+  narradorBruxa: 0

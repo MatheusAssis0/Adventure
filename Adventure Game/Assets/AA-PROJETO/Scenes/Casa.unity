@@ -1051,6 +1051,7 @@ MonoBehaviour:
   - {fileID: 7999356736008684827}
   - {fileID: 1760589818}
   - {fileID: 579085617}
+  - {fileID: 1155210339}
   _index: 0
 --- !u!114 &137795078
 MonoBehaviour:
@@ -3463,13 +3464,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458cf6c883b05b44ea8d302f8fa5e487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item:
+  - {fileID: 7999356736681899164}
+  - {fileID: 7999356736008684805}
+  - {fileID: 1760589821}
+  - {fileID: 579085620}
+  - {fileID: 1155210341}
   itemInfo: {fileID: 157235417}
   itemDica: {fileID: 1954401895}
-  item1: {fileID: 7999356736681899154}
-  item2: {fileID: 7999356736008684827}
-  item3: {fileID: 1760589818}
-  item4: {fileID: 579085617}
-  item5: {fileID: 1155210339}
   opcoes: 3
 --- !u!114 &579085620
 MonoBehaviour:
@@ -3484,7 +3486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.1764706}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4744,13 +4746,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458cf6c883b05b44ea8d302f8fa5e487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item:
+  - {fileID: 7999356736681899164}
+  - {fileID: 7999356736008684805}
+  - {fileID: 1760589821}
+  - {fileID: 579085620}
+  - {fileID: 1155210341}
   itemInfo: {fileID: 1783352660}
   itemDica: {fileID: 2025426535}
-  item1: {fileID: 7999356736681899154}
-  item2: {fileID: 7999356736008684827}
-  item3: {fileID: 1760589818}
-  item4: {fileID: 579085617}
-  item5: {fileID: 1155210339}
   opcoes: 4
 --- !u!114 &1155210341
 MonoBehaviour:
@@ -4765,7 +4768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.1764706}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8932,13 +8935,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458cf6c883b05b44ea8d302f8fa5e487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item:
+  - {fileID: 7999356736681899164}
+  - {fileID: 7999356736008684805}
+  - {fileID: 1760589821}
+  - {fileID: 579085620}
+  - {fileID: 1155210341}
   itemInfo: {fileID: 412687808}
   itemDica: {fileID: 34469136}
-  item1: {fileID: 7999356736681899154}
-  item2: {fileID: 7999356736008684827}
-  item3: {fileID: 1760589818}
-  item4: {fileID: 579085617}
-  item5: {fileID: 1155210339}
   opcoes: 2
 --- !u!114 &1760589821
 MonoBehaviour:
@@ -8953,7 +8957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.1764706}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9016,7 +9020,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Info 4
+  m_text: 'Info 5
 
 '
   m_isRightToLeft: 0
@@ -10006,7 +10010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dica 4
+  m_text: 'Dica 5
 
 '
   m_isRightToLeft: 0
@@ -10539,6 +10543,7 @@ GameObject:
   - component: {fileID: 8}
   - component: {fileID: 208235918963600601}
   - component: {fileID: 208235918963600602}
+  - component: {fileID: 208235918963600603}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -10645,6 +10650,32 @@ MonoBehaviour:
   texto4: {fileID: 871587101}
   fimImagem: {fileID: 567016278}
   fundoTexto: {fileID: 1089871189}
+--- !u!114 &208235918963600603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208235918963600595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d6e0c744e4cf748954acfaafd90539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 0
+  T: 0
+  C: 0
+  CC: 0
+  introVila: 0
+  objtvCasa: 0
+  itens: 0
+  colecionaveis: 0
+  colecionavel: 0
+  isPaused: 0
+  enigmaTroll: 0
+  enigmaBruxa: 0
+  narradorTroll: 0
+  narradorBruxa: 0
 --- !u!222 &248756253410971852
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17057,7 +17088,6 @@ GameObject:
   - component: {fileID: 7999356735920304387}
   - component: {fileID: 7999356735920304384}
   - component: {fileID: 7999356735920304385}
-  - component: {fileID: 7999356735920304392}
   m_Layer: 5
   m_Name: FundoColecionaveis
   m_TagString: Untagged
@@ -17065,24 +17095,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &7999356735920304392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7999356735920304391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f44830eba0494d547888741b1c03b53d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itensColecionaveis:
-  - {fileID: 7999356736681899154}
-  - {fileID: 7999356736008684827}
-  - {fileID: 1760589818}
-  - {fileID: 579085617}
-  - {fileID: 1155210339}
 --- !u!222 &7999356736008684804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17104,7 +17116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.1764706}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17133,13 +17145,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458cf6c883b05b44ea8d302f8fa5e487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item:
+  - {fileID: 7999356736681899164}
+  - {fileID: 7999356736008684805}
+  - {fileID: 1760589821}
+  - {fileID: 579085620}
+  - {fileID: 1155210341}
   itemInfo: {fileID: 7999356736756373106}
   itemDica: {fileID: 7999356736649426070}
-  item1: {fileID: 7999356736681899154}
-  item2: {fileID: 7999356736008684827}
-  item3: {fileID: 1760589818}
-  item4: {fileID: 579085617}
-  item5: {fileID: 1155210339}
   opcoes: 1
 --- !u!224 &7999356736008684826
 RectTransform:
@@ -17248,7 +17261,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dica 2
+  m_text: 'Dica 1
 
 '
   m_isRightToLeft: 0
@@ -17472,7 +17485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dica 1
+  m_text: 'Dica 2
 
 '
   m_isRightToLeft: 0
@@ -17621,7 +17634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.1764706}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17672,13 +17685,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458cf6c883b05b44ea8d302f8fa5e487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item:
+  - {fileID: 7999356736681899164}
+  - {fileID: 7999356736008684805}
+  - {fileID: 1760589821}
+  - {fileID: 579085620}
+  - {fileID: 1155210341}
   itemInfo: {fileID: 7999356737088139788}
   itemDica: {fileID: 7999356736318788597}
-  item1: {fileID: 7999356736681899154}
-  item2: {fileID: 7999356736008684827}
-  item3: {fileID: 1760589818}
-  item4: {fileID: 579085617}
-  item5: {fileID: 1155210339}
   opcoes: 0
 --- !u!222 &7999356736681899167
 CanvasRenderer:
@@ -17726,7 +17740,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Info 1
+  m_text: 'Info 2
 
 '
   m_isRightToLeft: 0
@@ -18004,7 +18018,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Info 2
+  m_text: 'Info 1
 
 '
   m_isRightToLeft: 0
