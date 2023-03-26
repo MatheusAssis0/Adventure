@@ -1622,7 +1622,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482911457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1632,7 +1632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.86, y: -108}
+  m_AnchoredPosition: {x: 14.86, y: -201}
   m_SizeDelta: {x: 974.07, y: 178.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482911459
@@ -4794,7 +4794,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5765447509662193880, guid: b1abf0de0aa2de245a50085d6be3c351, type: 3}
       propertyPath: m_text
-      value: "Aperte I para abrir o invent\xE1rio."
+      value: "Aperte I para abrir e fechar o invent\xE1rio."
       objectReference: {fileID: 0}
     - target: {fileID: 5765447509690168502, guid: b1abf0de0aa2de245a50085d6be3c351, type: 3}
       propertyPath: m_Name
@@ -4918,7 +4918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5765447510514255482, guid: b1abf0de0aa2de245a50085d6be3c351, type: 3}
       propertyPath: m_text
-      value: "Aperte C para abrir o menu de itens colecion\xE1veis."
+      value: "Aperte C para abrir e fechar o menu de itens colecion\xE1veis."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1abf0de0aa2de245a50085d6be3c351, type: 3}
@@ -6400,6 +6400,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GoToMainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 808854653426100153, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 808854653492348881, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_Name
       value: CanvasPause
@@ -6508,6 +6512,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Opcoes
       objectReference: {fileID: 0}
+    - target: {fileID: 808854654181650900, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 808854654181650902, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2587344423834300967, guid: 236587ec711348a4792e0060efb1bf73, type: 3}
     - target: {fileID: 808854654181650903, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6515,6 +6527,10 @@ PrefabInstance:
     - target: {fileID: 808854654181650903, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Pausar
+      objectReference: {fileID: 0}
+    - target: {fileID: 808854654277921380, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
@@ -6828,6 +6844,7 @@ GameObject:
   - component: {fileID: 7658569609500635030}
   - component: {fileID: 7658569609500635031}
   - component: {fileID: 7658569609500635032}
+  - component: {fileID: 7658569609500635033}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -6928,3 +6945,15 @@ MonoBehaviour:
   objetivo1: {fileID: 712582488}
   objetivo2: {fileID: 1114828056}
   objetivo3: {fileID: 1417166643}
+--- !u!114 &7658569609500635033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7542255096339252042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9945e1c9283244c46b4bed3496c234b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

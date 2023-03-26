@@ -2519,12 +2519,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1801569123001718028, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1801569123001718031, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2010624596}
+    - target: {fileID: 4871905283485592286, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
+      propertyPath: m_TagString
+      value: skp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
 --- !u!114 &917081728 stripped
@@ -3089,6 +3093,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GoToMainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 808854653426100153, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 808854653492348881, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_Name
       value: CanvasPause
@@ -3197,6 +3205,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Opcoes
       objectReference: {fileID: 0}
+    - target: {fileID: 808854654181650900, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 808854654181650902, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2587344423834300967, guid: 236587ec711348a4792e0060efb1bf73, type: 3}
     - target: {fileID: 808854654181650903, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3204,6 +3220,10 @@ PrefabInstance:
     - target: {fileID: 808854654181650903, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Pausar
+      objectReference: {fileID: 0}
+    - target: {fileID: 808854654277921380, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
@@ -6838,6 +6858,7 @@ GameObject:
   - component: {fileID: 2774565047886425957}
   - component: {fileID: 2774565047886425958}
   - component: {fileID: 2774565047886425959}
+  - component: {fileID: 2774565047886425960}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -6934,3 +6955,15 @@ MonoBehaviour:
   objetivo1: {fileID: 2079655544}
   objetivo2: {fileID: 289451370}
   objetivo3: {fileID: 229789350}
+--- !u!114 &2774565047886425960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2621923203117827001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9945e1c9283244c46b4bed3496c234b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

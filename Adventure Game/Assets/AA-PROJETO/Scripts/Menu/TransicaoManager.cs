@@ -43,4 +43,9 @@ public class TransicaoManager : MonoBehaviour
     {
         script.Transition("Bruxa");
     }
+
+    public void Puzzle()
+    {
+        script.Transition("Puzzle");
+    }
 }

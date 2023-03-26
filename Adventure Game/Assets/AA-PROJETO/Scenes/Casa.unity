@@ -10659,23 +10659,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 208235918963600595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3d6e0c744e4cf748954acfaafd90539, type: 3}
+  m_Script: {fileID: 11500000, guid: 9945e1c9283244c46b4bed3496c234b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: 0
-  T: 0
-  C: 0
-  CC: 0
-  introVila: 0
-  objtvCasa: 0
-  itens: 0
-  colecionaveis: 0
-  colecionavel: 0
-  isPaused: 0
-  enigmaTroll: 0
-  enigmaBruxa: 0
-  narradorTroll: 0
-  narradorBruxa: 0
 --- !u!222 &248756253410971852
 CanvasRenderer:
   m_ObjectHideFlags: 0

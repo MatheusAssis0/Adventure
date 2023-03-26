@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InicioVila : MonoBehaviour
 {
-    [SerializeField] private GameObject canvas;
+    [SerializeField] private GameObject canvas, item1;
     [SerializeField] private Camera main;
     private PlayerMovement script;
     private GlobalVars _script;
@@ -46,11 +46,14 @@ public class InicioVila : MonoBehaviour
     {
         if (canvas.activeSelf == true)
         {
-             script.enabled = false;
+            script.enabled = false;
+            item1.SetActive(false);
+            script.anim.SetBool("Andando", false);
         }
         else if(canvas.activeSelf == false)
         {
             script.enabled = true;
+            item1.SetActive(true);
         }
     }
 }

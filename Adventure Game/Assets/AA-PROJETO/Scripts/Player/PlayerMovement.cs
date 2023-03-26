@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject optionsMenu;
     [SerializeField] private GameObject controlesMenu;
     [SerializeField] private BoxCollider2D bCollider;
-    [SerializeField] private Animator anim;
+    [SerializeField] public Animator anim;
     private bool collisionPlatform;
 
     void Update()

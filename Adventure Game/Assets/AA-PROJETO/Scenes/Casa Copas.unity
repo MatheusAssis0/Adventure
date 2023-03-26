@@ -1083,6 +1083,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GoToMainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 808854653426100148, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 808854653426100153, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 808854653492348881, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_Name
       value: CanvasPause
@@ -1091,6 +1099,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 365755134}
+    - target: {fileID: 808854653492348882, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 808854653492348885, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1191,6 +1203,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Opcoes
       objectReference: {fileID: 0}
+    - target: {fileID: 808854654181650900, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 808854654181650901, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 808854654181650902, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2587344423834300967, guid: 236587ec711348a4792e0060efb1bf73, type: 3}
     - target: {fileID: 808854654181650903, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1198,6 +1222,10 @@ PrefabInstance:
     - target: {fileID: 808854654181650903, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Pausar
+      objectReference: {fileID: 0}
+    - target: {fileID: 808854654277921380, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
@@ -4593,8 +4621,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfc4357eb398cb41a9d8d867590d7db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialogo1: {fileID: 0}
-  Dialogo2: {fileID: 0}
+  Dialogo1: {fileID: 2081872567}
+  Dialogo2: {fileID: 1753435407}
 --- !u!114 &1804650845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8407,6 +8435,7 @@ GameObject:
   - component: {fileID: 7654473313810903632}
   - component: {fileID: 7654473313810903645}
   - component: {fileID: 7555328902842457738}
+  - component: {fileID: 7654473313810903646}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -8430,6 +8459,18 @@ MonoBehaviour:
   options: {fileID: 1204728189}
   controles: {fileID: 1204728188}
   _sair: {fileID: 698185853}
+--- !u!114 &7654473313810903646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7654473313810903638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9945e1c9283244c46b4bed3496c234b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8329219280322707447
 Transform:
   m_ObjectHideFlags: 0

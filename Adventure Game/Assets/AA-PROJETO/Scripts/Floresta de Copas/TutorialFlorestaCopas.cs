@@ -5,17 +5,28 @@ using UnityEngine;
 public class TutorialFlorestaCopas : MonoBehaviour
 {
     [SerializeField] private GameObject tutorial1, tutorial2, tutorial3, Tutorial;
+    private int cKeyCount, iKeyCount;
 
 
     private void Update()
     {
-        if(tutorial1.activeSelf == true && Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            cKeyCount++;
+        }
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            iKeyCount++;
+        }
+
+        if (tutorial1.activeSelf == true && iKeyCount == 2)
         {
             desligarTutorial1();
             ligarTutorial2();
         }
 
-        if(tutorial2.activeSelf == true && Input.GetKeyDown(KeyCode.C))
+        if(tutorial2.activeSelf == true && cKeyCount == 2)
         {
             desligarTutorial2();
             ligarTutorial3();
