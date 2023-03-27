@@ -13,9 +13,9 @@ public class GlobalVars : MonoBehaviour
     public int objtvCasa;
     public int itens;
     public int colecionaveis;
+    public int enigmaTroll, enigmaBruxa, enigmaGuarda;
     public bool colecionavel;
     public bool isPaused;
-    public bool enigmaTroll, enigmaBruxa;
     public bool narradorTroll, narradorBruxa;
 
     private void Awake()

@@ -296,14 +296,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52304520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -17.36, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 813389412}
-  m_Father: {fileID: 1720651930}
-  m_RootOrder: 3
+  m_Father: {fileID: 2052910002}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &52304522
 MonoBehaviour:
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 1
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":348,\"yPos\":62},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":351,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
     \u201CO que est\xE1 escrito aqui? \u2026Crazy\u2026 esteve aqui!\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -348,7 +348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1801569123001718024, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1801569123001718024, guid: 0ae6ad6f7d2c9e64580ec97cb74c9e8b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -539,6 +539,9 @@ GameObject:
   m_Component:
   - component: {fileID: 212435041}
   - component: {fileID: 212435040}
+  - component: {fileID: 212435044}
+  - component: {fileID: 212435043}
+  - component: {fileID: 212435042}
   m_Layer: 0
   m_Name: Placa
   m_TagString: Untagged
@@ -609,10 +612,63 @@ Transform:
   m_LocalPosition: {x: -24.551609, y: 4.28092, z: 9.785283}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 896315718}
   m_Father: {fileID: 623178080}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &212435042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212435039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ed2bd04b8625fb49b92de0912f5d963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogo1: {fileID: 896315719}
+--- !u!61 &212435043
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212435039}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.30902815, y: -1.109693}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.3125, y: 2.8125}
+    newSize: {x: 2.3125, y: 2.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.806817, y: 5.031886}
+  m_EdgeRadius: 0
+--- !u!114 &212435044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212435039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ad3c28cdebc864495bf0efc14a5a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botaoE: {fileID: 1014908259}
 --- !u!1 &240579346
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,7 +741,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ache todas as pe\xE7as de Xadrez: (2/3)"
+  m_text: 'Ache todas as partes do boneco: (2/3)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   m_sharedMaterial: {fileID: -8541740775360406355, guid: 32b3d1232d86406458978c672251b176, type: 2}
@@ -973,7 +1029,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1080566600857270584}
+        m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
+        m_MethodName: FlorestaDeCopas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1080566600857270586}
+        m_TargetAssemblyTypeName: InicioPonteCavaleiro, Assembly-CSharp
+        m_MethodName: EnigmaTroll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 60
   TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Icon: {fileID: -309240367, guid: a6e85060ab17ca1488c5bcb86c9cf451, type: 3}
@@ -1071,19 +1151,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1080566600857270585}
         m_TargetAssemblyTypeName: DarItem, Assembly-CSharp
-        m_MethodName: DarItem2
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1080566600857270585}
-        m_TargetAssemblyTypeName: DarItem, Assembly-CSharp
-        m_MethodName: DarColecionavelCha
+        m_MethodName: DarItemTroll
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1877,170 +1945,6 @@ MonoBehaviour:
   TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Icon: {fileID: -309240367, guid: a6e85060ab17ca1488c5bcb86c9cf451, type: 3}
   Audio: {fileID: 0}
---- !u!1 &303896620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 303896621}
-  - component: {fileID: 303896624}
-  - component: {fileID: 303896623}
-  - component: {fileID: 303896622}
-  m_Layer: 0
-  m_Name: ConversationEventInfo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &303896621
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303896620}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 696042073}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &303896622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303896620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 2
-  TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
-  Icon: {fileID: 2346428892977187499, guid: 168f51f77a153a64581df3cd1051d3fe, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &303896623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303896620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
-  Icon: {fileID: 2346428892977187499, guid: 168f51f77a153a64581df3cd1051d3fe, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &303896624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303896620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 0
-  TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
-  Icon: {fileID: 2346428892977187499, guid: 168f51f77a153a64581df3cd1051d3fe, type: 3}
-  Audio: {fileID: 0}
---- !u!1001 &325751015
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 109072717907413564, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072717907413564, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 18.012413
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.996667
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.016696744
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005754, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_Name
-      value: Local para interagir
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719094024946, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719094024946, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.01
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: defb193c462d43a41974ea8522f20f78, type: 3}
 --- !u!1001 &429218063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2098,7 +2002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4425374158093623346, guid: aa40b8d527996024cb8129bea43d9654, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4425374158093623346, guid: aa40b8d527996024cb8129bea43d9654, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2182,7 +2086,7 @@ PrefabInstance:
       objectReference: {fileID: 824936417}
     - target: {fileID: 8649669997218607331, guid: aa40b8d527996024cb8129bea43d9654, type: 3}
       propertyPath: m_text
-      value: "Ache todas as pe\xE7as de Xadrez: (1/3)"
+      value: 'Ache todas as partes do boneco: (1/3)'
       objectReference: {fileID: 0}
     - target: {fileID: 8649669997218607332, guid: aa40b8d527996024cb8129bea43d9654, type: 3}
       propertyPath: m_Name
@@ -2340,8 +2244,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622118103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.7775, y: -4.4920397, z: 10.247842}
-  m_LocalScale: {x: 12.705728, y: 17.765434, z: 1}
+  m_LocalPosition: {x: -13.7893, y: -4.4920397, z: 10.247842}
+  m_LocalScale: {x: 12.701912, y: 17.765434, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 623178080}
@@ -2384,7 +2288,7 @@ Transform:
   - {fileID: 169233594}
   - {fileID: 698182878}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &644882963
 GameObject:
@@ -2430,71 +2334,8 @@ Transform:
   - {fileID: 791797136}
   - {fileID: 1713108475}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &696042072
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 696042073}
-  - component: {fileID: 696042074}
-  m_Layer: 0
-  m_Name: Dialogo Rio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &696042073
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 696042072}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 303896621}
-  m_Father: {fileID: 1720651930}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &696042074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 696042072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentIDCounter: 3
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":349,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEspera,
-    aquilo ali \xE9 ch\xE1?!?\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":360,\"yPos\":108},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CQue
-    legal! Um rio de ch\xE1 fervente!!!\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":358,\"yPos\":199},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CBeenie-Weenie
-    e Tinky- Winky iriam adorar isso!\u201D\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
-  saveVersion: 110
-  DefaultName: 
-  DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 0}
-  NodeSerializedDataList:
-  - {fileID: 303896624}
-  - {fileID: 303896623}
-  - {fileID: 303896622}
-  ContinueFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
-  EndConversationFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &698182877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2566,7 +2407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3213,79 +3054,6 @@ MonoBehaviour:
   minX: 10.36
   maxX: 39.63
   smooth: 4
---- !u!1001 &885945497
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2309961440833048295, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440833048295, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 31.070625
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.395072
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.025466733
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027354, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961440944027355, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_Name
-      value: NPC com dialogo
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961441947349998, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309961441947349998, guid: fa0993197387b024e8567cbbf8662062, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.92
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0993197387b024e8567cbbf8662062, type: 3}
 --- !u!1 &896315717
 GameObject:
   m_ObjectHideFlags: 0
@@ -3310,14 +3078,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896315717}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.1046963, y: -2.88916, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 480840421}
-  m_Father: {fileID: 1720651930}
-  m_RootOrder: 1
+  m_Father: {fileID: 212435041}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &896315719
 MonoBehaviour:
@@ -3354,7 +3122,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1563485908676183489, guid: 85f58ddeb4462f742846a8bce323b9d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3412,65 +3180,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3083171433121315444, guid: e16eaffb12e258d4bb3b4edab97cdebe, type: 3}
   m_PrefabInstance: {fileID: 1432446491}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1035066616
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1035066617}
-  - component: {fileID: 1035066618}
-  m_Layer: 0
-  m_Name: Dialogo Rio PosEnigma
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1035066617
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035066616}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1742844323}
-  m_Father: {fileID: 1720651930}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1035066618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035066616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentIDCounter: 3
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":349,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAi,
-    realmente est\xE1 g\xE9lido!\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
-  saveVersion: 110
-  DefaultName: 
-  DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 0}
-  NodeSerializedDataList:
-  - {fileID: 1742844324}
-  ContinueFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
-  EndConversationFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1104682756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3495,13 +3204,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104682756}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -17.36, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1338639293}
-  m_Father: {fileID: 1720651930}
+  m_Father: {fileID: 2052910002}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1104682758
@@ -3517,7 +3226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 1
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":349,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEla
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":351,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEla
     est\xE1 completamente quebrada. Acho que n\xE3o tem como atravessar.\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -3660,7 +3369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 1
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":349,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CJ\xE1
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":356,\"yPos\":147},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CJ\xE1
     vai pro seu desanivers\xE1rio? Vai se apressar!\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -3733,7 +3442,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5150033075140519072, guid: 95883309f398fea46b8afa0d3174e9aa, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5150033075140519072, guid: 95883309f398fea46b8afa0d3174e9aa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3794,7 +3503,7 @@ PrefabInstance:
       objectReference: {fileID: 705276613}
     - target: {fileID: 3083171433121315402, guid: e16eaffb12e258d4bb3b4edab97cdebe, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3083171433121315402, guid: e16eaffb12e258d4bb3b4edab97cdebe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3866,14 +3575,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518178351}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -17.36, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1965869293}
-  m_Father: {fileID: 1720651930}
-  m_RootOrder: 4
+  m_Father: {fileID: 2052910002}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1518178353
 MonoBehaviour:
@@ -3888,15 +3597,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 8
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":328,\"yPos\":-168},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CO
-    que \xE9 aquilo???\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":332,\"yPos\":-73},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":311,\"yPos\":-132},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CO
+    que \xE9 aquilo???\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":315,\"yPos\":-37},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
     Cheshire se aproximando de uma pilha de ossos e penas que pareciam ter o tamanho
-    dele.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":325,\"yPos\":19},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEspera,
-    isso s\xE3o penas?!?\u201D\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":326,\"yPos\":110},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o,
-    s\xE3o pelo daquele maldito Grifo!\u201D\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":320,\"yPos\":205},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CVoc\xEA
-    desacredita que nem o pelo dele congelou quando ele caiu nesse rio?!?\u201D\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":317,\"yPos\":296},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUma
-    tremenda sorte, ele teria sido um p\xE9ssimo jantar\u2026\u201D\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":320,\"yPos\":392},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CElas
-    s\xE3o muito importantes para mim, pode deix\xE1-las se quiser!\u201D\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":324,\"yPos\":480},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
+    dele.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":308,\"yPos\":55},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEspera,
+    isso s\xE3o penas?!?\u201D\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":309,\"yPos\":146},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o,
+    s\xE3o pelo daquele maldito Grifo!\u201D\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":303,\"yPos\":241},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CVoc\xEA
+    desacredita que nem o pelo dele congelou quando ele caiu nesse rio?!?\u201D\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":300,\"yPos\":332},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUma
+    tremenda sorte, ele teria sido um p\xE9ssimo jantar\u2026\u201D\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":303,\"yPos\":428},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CElas
+    s\xE3o muito importantes para mim, pode deix\xE1-las se quiser!\u201D\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":307,\"yPos\":516},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
     o Troll entregando as penas pro gatinho.\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -3915,7 +3624,43 @@ MonoBehaviour:
   EndConversationFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1080566600857270585}
+        m_TargetAssemblyTypeName: DarItem, Assembly-CSharp
+        m_MethodName: DarColecionavelPena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1080566600857270584}
+        m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
+        m_MethodName: FlorestaDeCopas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1080566600857270586}
+        m_TargetAssemblyTypeName: InicioPonteCavaleiro, Assembly-CSharp
+        m_MethodName: ZerouTroll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1527635390
 GameObject:
   m_ObjectHideFlags: 0
@@ -4325,7 +4070,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1080566600857270584}
+        m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
+        m_MethodName: FlorestaDeCopas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1080566600857270586}
+        m_TargetAssemblyTypeName: InicioPonteCavaleiro, Assembly-CSharp
+        m_MethodName: EnigmaTroll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 60
   TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Icon: {fileID: -309240367, guid: a6e85060ab17ca1488c5bcb86c9cf451, type: 3}
@@ -4423,19 +4192,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1080566600857270585}
         m_TargetAssemblyTypeName: DarItem, Assembly-CSharp
-        m_MethodName: DarItem2
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1080566600857270585}
-        m_TargetAssemblyTypeName: DarItem, Assembly-CSharp
-        m_MethodName: DarColecionavelCha
+        m_MethodName: DarItemTroll
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5335,7 +5092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2618574002347468930, guid: 2da06d62affe8b54ead15da05f39c118, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2618574002347468930, guid: 2da06d62affe8b54ead15da05f39c118, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5518,7 +5275,7 @@ Transform:
   m_GameObject: {fileID: 1648270815}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 25.2215, y: -4.4920397, z: 10.247842}
-  m_LocalScale: {x: 12.690382, y: 17.765434, z: 1}
+  m_LocalScale: {x: 12.703074, y: 17.765434, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 623178080}
@@ -5570,36 +5327,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 63
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":51}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-21,\"yPos\":1245},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"A.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":203,\"yPos\":1246},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":427,\"yPos\":1243},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"C.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":646,\"yPos\":1245},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nenhum
-    deles\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":642,\"yPos\":1153},\"ID\":45,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Escutar
-    novamente\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":417,\"yPos\":1776},\"ID\":50,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tentar
-    novamente\",\"parentUIDs\":[49],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":61}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":349,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CArgh,
-    hip\u2026 que cheiro maravilhoso \xE9 esse?!?\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":341,\"yPos\":440},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUm
-    espi\xE3o, chamado Murdoch, entrou no pa\xEDs. A, B ou C, ele pode ser.\",\"parentUIDs\":[62,45],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":339,\"yPos\":547},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Um
-    dos tr\xEAs \xE9 cavaleiro, o outro, valete, e o terceiro, o Murdoch.\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":336,\"yPos\":645},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"O
-    Espi\xE3o \xE9 o \xFAnico dos tr\xEAs que se chama Murdoch.\",\"parentUIDs\":[34],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":338,\"yPos\":746},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Os
-    tr\xEAs prestaram os seguintes depoimentos no tribunal:\",\"parentUIDs\":[35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":341,\"yPos\":845},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Meu
-    nome \xE9 Murdoch.\",\"parentUIDs\":[36],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"a:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":337,\"yPos\":940},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9
-    verdade.\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"b:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":341,\"yPos\":1038},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eu
-    sou o Murdoch.\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"c:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":45}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":338,\"yPos\":1139},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Sabendo
-    que o Cavaleiro SEMPRE mente e o Valete SEMPRE diz a verdade, quem \xE9 o espi\xE3o?\\\"\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":47}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":418,\"yPos\":1392},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026Hi,
-    hi, hi, ho, parece que vai esfriar!~\u201D\",\"parentUIDs\":[42,43,44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":415,\"yPos\":1491},\"ID\":47,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
-    o Troll, jogando o Cheshire no rio fervente de ch\xE1.\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":415,\"yPos\":1580},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nem
-    mesmo eu sei dizer, se foi queimado ou afogado que aquele  gato veio a morrer.\",\"parentUIDs\":[47],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":50}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":413,\"yPos\":1678},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Mas
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":51}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":337,\"yPos\":-657},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"A.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":561,\"yPos\":-656},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":785,\"yPos\":-659},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"C.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1004,\"yPos\":-657},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nenhum
+    deles\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1000,\"yPos\":-749},\"ID\":45,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Escutar
+    novamente\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":776,\"yPos\":-126},\"ID\":50,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tentar
+    novamente\",\"parentUIDs\":[49],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":61}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":707,\"yPos\":-1880},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CArgh,
+    hip\u2026 que cheiro maravilhoso \xE9 esse?!?\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":699,\"yPos\":-1462},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUm
+    espi\xE3o, chamado Murdoch, entrou no pa\xEDs. A, B ou C, ele pode ser.\",\"parentUIDs\":[62,45],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":697,\"yPos\":-1355},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Um
+    dos tr\xEAs \xE9 cavaleiro, o outro, valete, e o terceiro, o Murdoch.\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":694,\"yPos\":-1257},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"O
+    Espi\xE3o \xE9 o \xFAnico dos tr\xEAs que se chama Murdoch.\",\"parentUIDs\":[34],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":696,\"yPos\":-1156},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Os
+    tr\xEAs prestaram os seguintes depoimentos no tribunal:\",\"parentUIDs\":[35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":699,\"yPos\":-1057},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Meu
+    nome \xE9 Murdoch.\",\"parentUIDs\":[36],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"a:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":695,\"yPos\":-962},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9
+    verdade.\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"b:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":699,\"yPos\":-864},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eu
+    sou o Murdoch.\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"c:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":45}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":696,\"yPos\":-763},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Sabendo
+    que o Cavaleiro SEMPRE mente e o Valete SEMPRE diz a verdade, quem \xE9 o espi\xE3o?\\\"\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":47}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":776,\"yPos\":-510},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026Hi,
+    hi, hi, ho, parece que vai esfriar!~\u201D\",\"parentUIDs\":[42,43,44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":773,\"yPos\":-411},\"ID\":47,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
+    o Troll, jogando o Cheshire no rio fervente de ch\xE1.\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":773,\"yPos\":-322},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nem
+    mesmo eu sei dizer, se foi queimado ou afogado que aquele  gato veio a morrer.\",\"parentUIDs\":[47],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":50}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":771,\"yPos\":-224},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Mas
     sem sombra de d\xFAvida digo sim, sua mem\xF3ria ficar\xE1 sempre guardada numa
-    safra que tira o sorriso de mim.\",\"parentUIDs\":[48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":52}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-27,\"yPos\":1391},\"ID\":51,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUma
-    pena que voc\xEA n\xE3o pode ir!\u201D\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":53}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-30,\"yPos\":1483},\"ID\":52,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026
-    leve esse ch\xE1 para o seu desanivers\xE1rio agredir!\u201D\",\"parentUIDs\":[51],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":54}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-33,\"yPos\":1573},\"ID\":53,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDesprazer
-    prazer conhec\xEA-lo, cachorrinho!Hip\u2026\u201D\",\"parentUIDs\":[52],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":55}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-32,\"yPos\":1667},\"ID\":54,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDigo
-    o mesmo, desprazer para voc\xEA tamb\xE9m!\u201D\",\"parentUIDs\":[53],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":56}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-27,\"yPos\":1761},\"ID\":55,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Cheshire
-    pega o ch\xE1 e volta para floresta.\",\"parentUIDs\":[54],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":57}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-34,\"yPos\":1853},\"ID\":56,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o
-    tome cuidado! Hip\u2026\u201D\",\"parentUIDs\":[55],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":58}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-34,\"yPos\":1947},\"ID\":57,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CCuidado?
-    Com o que?!?\u201D\",\"parentUIDs\":[56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":59}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-33,\"yPos\":2047},\"ID\":58,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026O
-    caf\xE9, \xE9 escuro!\u201D\",\"parentUIDs\":[57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":60}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-31,\"yPos\":2146},\"ID\":59,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CMas
-    porque eu deveria ter cuidado com o ch\xE1?\\\"\",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-31,\"yPos\":2239},\"ID\":60,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEle
+    safra que tira o sorriso de mim.\",\"parentUIDs\":[48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":52}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":330,\"yPos\":-511},\"ID\":51,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUma
+    pena que voc\xEA n\xE3o pode ir!\u201D\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":53}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":328,\"yPos\":-419},\"ID\":52,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026
+    leve esse ch\xE1 para o seu desanivers\xE1rio agredir!\u201D\",\"parentUIDs\":[51],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":54}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":325,\"yPos\":-329},\"ID\":53,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDesprazer
+    prazer conhec\xEA-lo, cachorrinho!Hip\u2026\u201D\",\"parentUIDs\":[52],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":55}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":326,\"yPos\":-235},\"ID\":54,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDigo
+    o mesmo, desprazer para voc\xEA tamb\xE9m!\u201D\",\"parentUIDs\":[53],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":56}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":331,\"yPos\":-141},\"ID\":55,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Cheshire
+    pega o ch\xE1 e volta para floresta.\",\"parentUIDs\":[54],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":57}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":324,\"yPos\":-49},\"ID\":56,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o
+    tome cuidado! Hip\u2026\u201D\",\"parentUIDs\":[55],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":58}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":324,\"yPos\":45},\"ID\":57,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CCuidado?
+    Com o que?!?\u201D\",\"parentUIDs\":[56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":59}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":325,\"yPos\":145},\"ID\":58,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026O
+    caf\xE9, \xE9 escuro!\u201D\",\"parentUIDs\":[57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":60}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":326,\"yPos\":240},\"ID\":59,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CMas
+    porque eu deveria ter cuidado com o ch\xE1?\\\"\",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":328,\"yPos\":337},\"ID\":60,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEle
     \xE9 s\xF3 uma bebida, n\xE3o uma arma mortal! Hip\u2026Ele n\xE3o pode curar,
-    congelar ou arrumar tudo \xE0 sua volta, hip\u2026 \xE9 apenas caf\xE9!\u201D\",\"parentUIDs\":[59],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":62}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":347,\"yPos\":158},\"ID\":61,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026
-    \xC9 t\xE3o \xE1cido que me d\xE1 diabetes! Hip\u2026\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":346,\"yPos\":290},\"ID\":62,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
+    congelar ou arrumar tudo \xE0 sua volta, hip\u2026 \xE9 apenas caf\xE9!\u201D\",\"parentUIDs\":[59],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":62}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":705,\"yPos\":-1744},\"ID\":61,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026
+    \xC9 t\xE3o \xE1cido que me d\xE1 diabetes! Hip\u2026\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":704,\"yPos\":-1612},\"ID\":62,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
     o troll, se levantando e saindo do rio ardente. \",\"parentUIDs\":[61],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -5654,7 +5411,31 @@ MonoBehaviour:
   EndConversationFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1080566600857270584}
+        m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
+        m_MethodName: FlorestaDeCopas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1080566600857270586}
+        m_TargetAssemblyTypeName: InicioPonteCavaleiro, Assembly-CSharp
+        m_MethodName: EnigmaTroll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1713108474
 GameObject:
   m_ObjectHideFlags: 0
@@ -6071,94 +5852,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1720651929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1720651930}
-  m_Layer: 0
-  m_Name: Dialogos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1720651930
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720651929}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1104682757}
-  - {fileID: 896315718}
-  - {fileID: 696042073}
-  - {fileID: 52304521}
-  - {fileID: 1518178352}
-  - {fileID: 1035066617}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1742844322
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1742844323}
-  - component: {fileID: 1742844324}
-  m_Layer: 0
-  m_Name: ConversationEventInfo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1742844323
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742844322}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1035066617}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1742844324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742844322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 0
-  TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
-  Icon: {fileID: 2346428892977187499, guid: 168f51f77a153a64581df3cd1051d3fe, type: 3}
-  Audio: {fileID: 0}
 --- !u!1 &1783497502
 GameObject:
   m_ObjectHideFlags: 0
@@ -6300,7 +5993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3066567676443064565, guid: 46bf7f71631e3994ca23ee2cc8289c37, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3066567676443064565, guid: 46bf7f71631e3994ca23ee2cc8289c37, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6442,7 +6135,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1080566600857270585}
+        m_TargetAssemblyTypeName: DarItem, Assembly-CSharp
+        m_MethodName: DarColecionavelPena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1080566600857270584}
+        m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
+        m_MethodName: FlorestaDeCopas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1080566600857270586}
+        m_TargetAssemblyTypeName: InicioPonteCavaleiro, Assembly-CSharp
+        m_MethodName: ZerouTroll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 7
   TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Icon: {fileID: 0}
@@ -6613,7 +6342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 808854653492348885, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 808854653492348885, guid: 4de47aa700c0d5a44b027b552d5e0699, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6786,52 +6515,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 61
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":51}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-17,\"yPos\":2631},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"A.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":207,\"yPos\":2632},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":431,\"yPos\":2629},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"C.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":650,\"yPos\":2631},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nenhum
-    deles\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":646,\"yPos\":2539},\"ID\":45,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Escutar
-    novamente\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":421,\"yPos\":3162},\"ID\":50,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tentar
-    novamente\",\"parentUIDs\":[49],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":349,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUou,
-    que susto!\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":353,\"yPos\":113},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CComo
-    voc\xEA saiu desse rio? Ele n\xE3o est\xE1 fumegante?!?\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":351,\"yPos\":206},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026Pelo
-    contr\xE1rio, est\xE1 g\xE9lido! Hip\u2026\u201D\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":353,\"yPos\":300},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CPor
-    que me adormeceu?\u201D\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":353,\"yPos\":393},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAdormeceu?!?\u201D\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":355,\"yPos\":485},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEu
-    s\xF3 gostaria de encontrar o cavalheiro, voc\xEA o viu?\u201D\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":351,\"yPos\":583},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CClaro
-    que n\xE3o! Hip\u2026\u201D\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":347,\"yPos\":683},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CPoxa,
-    que pena!\u201D\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":776},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
-    Cheshire observando a apar\xEAncia do Troll.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":342,\"yPos\":871},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CMas
-    espera a\xED, voc\xEA por acaso \xC9 o cavalheiro?\u201D\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":964},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perguntou
-    o gato, reparando na armadura que este estava usando. \",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":1062},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026Definitivamente,
-    n\xE3o!\u201D\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":356,\"yPos\":1157},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Ent\xE3o,
-    por que est\xE1 usando uma armadura?\u201D\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":351,\"yPos\":1246},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o
-    estou usando uma armadura! Hip\u2026\u201D\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":343,\"yPos\":1340},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAh,
-    j\xE1 entendi!\u201D\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":342,\"yPos\":1435},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201C
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":51}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":405,\"yPos\":-624},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"A.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":638,\"yPos\":-625},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":862,\"yPos\":-628},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"C.\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1081,\"yPos\":-626},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nenhum
+    deles\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1077,\"yPos\":-718},\"ID\":45,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Escutar
+    novamente\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":852,\"yPos\":-95},\"ID\":50,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tentar
+    novamente\",\"parentUIDs\":[49],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":780,\"yPos\":-3235},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUou,
+    que susto!\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":784,\"yPos\":-3144},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CComo
+    voc\xEA saiu desse rio? Ele n\xE3o est\xE1 fumegante?!?\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":782,\"yPos\":-3051},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026Pelo
+    contr\xE1rio, est\xE1 g\xE9lido! Hip\u2026\u201D\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":784,\"yPos\":-2957},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CPor
+    que me adormeceu?\u201D\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":784,\"yPos\":-2864},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAdormeceu?!?\u201D\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":786,\"yPos\":-2772},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEu
+    s\xF3 gostaria de encontrar o cavalheiro, voc\xEA o viu?\u201D\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":782,\"yPos\":-2674},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CClaro
+    que n\xE3o! Hip\u2026\u201D\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":778,\"yPos\":-2574},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CPoxa,
+    que pena!\u201D\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":776,\"yPos\":-2481},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
+    Cheshire observando a apar\xEAncia do Troll.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":773,\"yPos\":-2386},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CMas
+    espera a\xED, voc\xEA por acaso \xC9 o cavalheiro?\u201D\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":776,\"yPos\":-2293},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perguntou
+    o gato, reparando na armadura que este estava usando. \",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":776,\"yPos\":-2195},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026Definitivamente,
+    n\xE3o!\u201D\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":787,\"yPos\":-2100},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Ent\xE3o,
+    por que est\xE1 usando uma armadura?\u201D\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":782,\"yPos\":-2011},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o
+    estou usando uma armadura! Hip\u2026\u201D\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":774,\"yPos\":-1917},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAh,
+    j\xE1 entendi!\u201D\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":773,\"yPos\":-1822},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201C
     J\xE1 ouvi falar de pessoas como voc\xEA, que sempre falam o contr\xE1rio do
-    que realmente querem.\u201D\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":344,\"yPos\":1528},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026
-    O que voc\xEA n\xE3o quer dizer? Hip\u2026\u201D\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":343,\"yPos\":1622},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CVoc\xEA
+    que realmente querem.\u201D\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":775,\"yPos\":-1729},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026
+    O que voc\xEA n\xE3o quer dizer? Hip\u2026\u201D\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":774,\"yPos\":-1635},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CVoc\xEA
     poderia N\xC3O me dar a sua pe\xE7a, por favor? Sabe, aquela para N\xC3O encontrar
-    a rainha.\u201D\",\"parentUIDs\":[30],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":352,\"yPos\":1731},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHA,
-    vamos ver se voc\xEA vai acordar! Hip\u2026\u201D\",\"parentUIDs\":[31],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":1826},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUm
-    espi\xE3o, chamado Murdoch, entrou no pa\xEDs. A, B ou C, ele pode ser.\",\"parentUIDs\":[32,45],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":343,\"yPos\":1933},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Um
-    dos tr\xEAs \xE9 cavaleiro, o outro, valete, e o terceiro, o Murdoch.\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":340,\"yPos\":2031},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"O
-    Espi\xE3o \xE9 o \xFAnico dos tr\xEAs que se chama Murdoch.\",\"parentUIDs\":[34],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":342,\"yPos\":2132},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Os
-    tr\xEAs prestaram os seguintes depoimentos no tribunal:\",\"parentUIDs\":[35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":2231},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Meu
-    nome \xE9 Murdoch.\",\"parentUIDs\":[36],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"a:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":341,\"yPos\":2326},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9
-    verdade.\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"b:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":2424},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eu
-    sou o Murdoch.\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"c:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":45}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":342,\"yPos\":2525},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Sabendo
-    que o Cavaleiro SEMPRE mente e o Valete SEMPRE diz a verdade, quem \xE9 o espi\xE3o?\\\"\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":47}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":422,\"yPos\":2778},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026Hi,
-    hi, hi, ho, parece que vai esfriar!~\u201D\",\"parentUIDs\":[42,43,44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":419,\"yPos\":2877},\"ID\":47,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
-    o Troll, jogando o Cheshire no rio fervente de ch\xE1.\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":419,\"yPos\":2966},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nem
-    mesmo eu sei dizer, se foi queimado ou afogado que aquele  gato veio a morrer.\",\"parentUIDs\":[47],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":50}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":417,\"yPos\":3064},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Mas
+    a rainha.\u201D\",\"parentUIDs\":[30],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":783,\"yPos\":-1526},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHA,
+    vamos ver se voc\xEA vai acordar! Hip\u2026\u201D\",\"parentUIDs\":[31],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":776,\"yPos\":-1431},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUm
+    espi\xE3o, chamado Murdoch, entrou no pa\xEDs. A, B ou C, ele pode ser.\",\"parentUIDs\":[32,45],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":774,\"yPos\":-1324},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Um
+    dos tr\xEAs \xE9 cavaleiro, o outro, valete, e o terceiro, o Murdoch.\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":771,\"yPos\":-1226},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"O
+    Espi\xE3o \xE9 o \xFAnico dos tr\xEAs que se chama Murdoch.\",\"parentUIDs\":[34],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":773,\"yPos\":-1125},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Os
+    tr\xEAs prestaram os seguintes depoimentos no tribunal:\",\"parentUIDs\":[35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":776,\"yPos\":-1026},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Meu
+    nome \xE9 Murdoch.\",\"parentUIDs\":[36],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"a:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":772,\"yPos\":-931},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9
+    verdade.\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"b:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":776,\"yPos\":-833},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eu
+    sou o Murdoch.\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"c:\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":45}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":773,\"yPos\":-732},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Sabendo
+    que o Cavaleiro SEMPRE mente e o Valete SEMPRE diz a verdade, quem \xE9 o espi\xE3o?\\\"\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":47}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":853,\"yPos\":-479},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026Hi,
+    hi, hi, ho, parece que vai esfriar!~\u201D\",\"parentUIDs\":[42,43,44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":850,\"yPos\":-380},\"ID\":47,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
+    o Troll, jogando o Cheshire no rio fervente de ch\xE1.\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":850,\"yPos\":-291},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nem
+    mesmo eu sei dizer, se foi queimado ou afogado que aquele  gato veio a morrer.\",\"parentUIDs\":[47],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":50}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":849,\"yPos\":-193},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Mas
     sem sombra de d\xFAvida digo sim, sua mem\xF3ria ficar\xE1 sempre guardada numa
-    safra que tira o sorriso de mim.\",\"parentUIDs\":[48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":52}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-23,\"yPos\":2777},\"ID\":51,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUma
-    pena que voc\xEA n\xE3o pode ir!\u201D\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":53}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-26,\"yPos\":2869},\"ID\":52,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026
-    leve esse ch\xE1 para o seu desanivers\xE1rio agredir!\u201D\",\"parentUIDs\":[51],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":54}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-29,\"yPos\":2959},\"ID\":53,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDesprazer
-    prazer conhec\xEA-lo, cachorrinho!Hip\u2026\u201D\",\"parentUIDs\":[52],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":55}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-28,\"yPos\":3053},\"ID\":54,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDigo
-    o mesmo, desprazer para voc\xEA tamb\xE9m!\u201D\",\"parentUIDs\":[53],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":56}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-23,\"yPos\":3147},\"ID\":55,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Cheshire
-    pega o ch\xE1 e volta para floresta.\",\"parentUIDs\":[54],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":57}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-30,\"yPos\":3239},\"ID\":56,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o
-    tome cuidado! Hip\u2026\u201D\",\"parentUIDs\":[55],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":58}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-30,\"yPos\":3333},\"ID\":57,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CCuidado?
-    Com o que?!?\u201D\",\"parentUIDs\":[56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":59}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-29,\"yPos\":3433},\"ID\":58,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026O
-    caf\xE9, \xE9 escuro!\u201D\",\"parentUIDs\":[57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":60}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-27,\"yPos\":3532},\"ID\":59,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CMas
-    porque eu deveria ter cuidado com o ch\xE1?\\\"\",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-27,\"yPos\":3625},\"ID\":60,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEle
+    safra que tira o sorriso de mim.\",\"parentUIDs\":[48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":52}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":408,\"yPos\":-480},\"ID\":51,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUma
+    pena que voc\xEA n\xE3o pode ir!\u201D\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":53}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":405,\"yPos\":-388},\"ID\":52,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026
+    leve esse ch\xE1 para o seu desanivers\xE1rio agredir!\u201D\",\"parentUIDs\":[51],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":54}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":402,\"yPos\":-298},\"ID\":53,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDesprazer
+    prazer conhec\xEA-lo, cachorrinho!Hip\u2026\u201D\",\"parentUIDs\":[52],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":55}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":403,\"yPos\":-204},\"ID\":54,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDigo
+    o mesmo, desprazer para voc\xEA tamb\xE9m!\u201D\",\"parentUIDs\":[53],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":56}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":408,\"yPos\":-110},\"ID\":55,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Cheshire
+    pega o ch\xE1 e volta para floresta.\",\"parentUIDs\":[54],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":57}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":401,\"yPos\":-18},\"ID\":56,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o
+    tome cuidado! Hip\u2026\u201D\",\"parentUIDs\":[55],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":58}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":392,\"yPos\":80},\"ID\":57,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CCuidado?
+    Com o que?!?\u201D\",\"parentUIDs\":[56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":59}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":402,\"yPos\":176},\"ID\":58,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHip\u2026O
+    caf\xE9, \xE9 escuro!\u201D\",\"parentUIDs\":[57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":60}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":405,\"yPos\":275},\"ID\":59,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CMas
+    porque eu deveria ter cuidado com o ch\xE1?\\\"\",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":404,\"yPos\":368},\"ID\":60,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEle
     \xE9 s\xF3 uma bebida, n\xE3o uma arma mortal! Hip\u2026Ele n\xE3o pode curar,
     congelar ou arrumar tudo \xE0 sua volta, hip\u2026 \xE9 apenas caf\xE9!\u201D\",\"parentUIDs\":[59],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Troll\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
@@ -6903,80 +6632,123 @@ MonoBehaviour:
   EndConversationFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls: []
---- !u!1001 &2042637781
-PrefabInstance:
+      m_Calls:
+      - m_Target: {fileID: 1080566600857270584}
+        m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
+        m_MethodName: FlorestaDeCopas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1080566600857270586}
+        m_TargetAssemblyTypeName: InicioPonteCavaleiro, Assembly-CSharp
+        m_MethodName: EnigmaTroll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &2052909998
+GameObject:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2052910002}
+  - component: {fileID: 2052910001}
+  - component: {fileID: 2052910000}
+  - component: {fileID: 2052909999}
+  m_Layer: 0
+  m_Name: Ponte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2052909999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052909998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa026bedcfc9e544b4e756d8f5c0659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogo1: {fileID: 1104682758}
+  dialogo2: {fileID: 52304522}
+  dialogo3: {fileID: 1518178353}
+  opcoes: 3
+--- !u!114 &2052910000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052909998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ad3c28cdebc864495bf0efc14a5a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botaoE: {fileID: 1014908259}
+--- !u!61 &2052910001
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052909998}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.50139904, y: -0.35949332}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 109072717907413564, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -16.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072717907413564, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 37.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.016696744
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005753, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719093005754, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_Name
-      value: Local para interagir (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719094024946, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -42.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 109072719094024946, guid: defb193c462d43a41974ea8522f20f78, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.76
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: defb193c462d43a41974ea8522f20f78, type: 3}
+  m_Size: {x: 1.3216534, y: 1.7189866}
+  m_EdgeRadius: 0
+--- !u!4 &2052910002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052909998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.36, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1104682757}
+  - {fileID: 52304521}
+  - {fileID: 1518178352}
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2144010469
 GameObject:
   m_ObjectHideFlags: 0
@@ -7147,15 +6919,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144010469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.43, y: 0.11, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 27.74, y: 0.32, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2009847009}
   - {fileID: 1678826045}
   - {fileID: 1304189007}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &872920896677008864
 Transform:
@@ -7170,7 +6942,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &872920896677008865
 MonoBehaviour:

@@ -103,8 +103,9 @@ public class Pause : MonoBehaviour
         script_.objtvCasa = 0;
         script_.itens = -1;
         script_.colecionaveis = -1;
-        script_.enigmaBruxa = false;
-        script_.enigmaTroll = false;
+        script_.enigmaBruxa = 0;
+        script_.enigmaTroll = 0;
+        script_.enigmaGuarda= 0;
         script_.narradorBruxa = false;
         script_.narradorTroll = false;
     }

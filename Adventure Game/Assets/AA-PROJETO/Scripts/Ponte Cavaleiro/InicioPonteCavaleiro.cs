@@ -11,5 +11,12 @@ public class InicioPonteCavaleiro : MonoBehaviour
         script = FindObjectOfType<GlobalVars>();
     }
 
-
+    public void EnigmaTroll()
+    {
+        script.enigmaTroll = 1;
+    }
+    public void ZerouTroll()
+    {
+        script.enigmaTroll = 2;
+    }
 }

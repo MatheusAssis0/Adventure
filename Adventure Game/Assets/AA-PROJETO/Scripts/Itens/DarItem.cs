@@ -14,11 +14,11 @@ public class DarItem : MonoBehaviour
     {
         script.itens = 0;
     }
-    public void DarItem2()
+    public void DarItemBruxa()
     {
         script.itens = 1;
     }
-    public void DarItem3()
+    public void DarItemTroll()
     {
         script.itens = 2;
     }
@@ -43,13 +43,17 @@ public class DarItem : MonoBehaviour
     {
         script.colecionaveis = 0;
     }
-    public void DarColecionavelCha()
+    public void DarColecionavelCoracao()
     {
-        script.colecionaveis = 4;
+        script.colecionaveis = 1;
     }
 
     public void DarColecionavelPena()
     {
         script.colecionaveis = 2;
+    }
+    public void DarColecionavelVeludo()
+    {
+        script.colecionaveis = 3;
     }
 }

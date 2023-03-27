@@ -17,13 +17,13 @@ public class Inventario : MonoBehaviour
     {
         for (int i = 0; i < 8; i++)
         {
-            if (script.colecionaveis == i)
+            if (script.itens == i)
             {
                 itens[i].SetActive(true);
             }
         }
 
-        if (script.colecionaveis == -1f)
+        if (script.itens == -1f)
         {
             foreach (GameObject obj in itens)
             {

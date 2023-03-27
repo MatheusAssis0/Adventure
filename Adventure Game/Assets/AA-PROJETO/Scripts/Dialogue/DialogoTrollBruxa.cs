@@ -6,7 +6,7 @@ using UnityEngine;
 public class DialogoTrollBruxa : MonoBehaviour
 {
     [SerializeField] private NPCConversation dialogo1, dialogo2, dialogo3; 
-    public enum Opcoes { bruxa, troll, outrosBruxa, outrosTroll}
+    public enum Opcoes { bruxa, troll, outrosBruxa, outrosTroll, florestaCopas, guardaFinal}
     public Opcoes opcoes;
     private GlobalVars script;
     private bool podeInteragir;
@@ -29,15 +29,15 @@ public class DialogoTrollBruxa : MonoBehaviour
             case Opcoes.bruxa:
                 if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
                 {
-                    if (script.enigmaBruxa == false && script.enigmaTroll == false)
+                    if (script.enigmaBruxa == 0 && script.enigmaTroll == 0)
                     {
                         ConversationManager.Instance.StartConversation(dialogo1);
                     }
-                    if (script.enigmaBruxa == false && script.enigmaTroll == true)
+                    if (script.enigmaBruxa == 0 && script.enigmaTroll == 1)
                     {
                         ConversationManager.Instance.StartConversation(dialogo2);
                     }
-                    if (script.enigmaBruxa == true)
+                    if (script.enigmaBruxa == 1)
                     {
                         ConversationManager.Instance.StartConversation(dialogo3);
                     }
@@ -46,15 +46,15 @@ public class DialogoTrollBruxa : MonoBehaviour
             case Opcoes.troll:
                 if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
                 {
-                    if (script.enigmaBruxa == false && script.enigmaTroll == false)
+                    if (script.enigmaBruxa == 0 && script.enigmaTroll == 0)
                     {
                         ConversationManager.Instance.StartConversation(dialogo1);
                     }
-                    if (script.enigmaBruxa == true && script.enigmaTroll == false)
+                    if (script.enigmaBruxa == 1 && script.enigmaTroll == 0)
                     {
                         ConversationManager.Instance.StartConversation(dialogo2);
                     }
-                    if (script.enigmaTroll == true)
+                    if (script.enigmaTroll == 1)
                     {
                         ConversationManager.Instance.StartConversation(dialogo3);
                     }
@@ -63,11 +63,11 @@ public class DialogoTrollBruxa : MonoBehaviour
             case Opcoes.outrosBruxa:
                 if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
                 {
-                    if (script.enigmaBruxa == false)
+                    if (script.enigmaBruxa == 0)
                     {
                         ConversationManager.Instance.StartConversation(dialogo1);
                     }
-                    if (script.enigmaBruxa == true)
+                    if (script.enigmaBruxa == 1)
                     {
                         dialogo = Random.Range(1, 3);
                         if (dialogo == 1)
@@ -84,11 +84,11 @@ public class DialogoTrollBruxa : MonoBehaviour
             case Opcoes.outrosTroll:
                 if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
                 {
-                    if (script.enigmaTroll == false)
+                    if (script.enigmaTroll == 0)
                     {
                         ConversationManager.Instance.StartConversation(dialogo1);
                     }
-                    if (script.enigmaTroll == true)
+                    if (script.enigmaTroll == 1)
                     {
                         dialogo = Random.Range(1, 3);
                         if (dialogo == 1)
@@ -99,6 +99,36 @@ public class DialogoTrollBruxa : MonoBehaviour
                         {
                             ConversationManager.Instance.StartConversation(dialogo3);
                         }
+                    }
+                }
+                break;
+            case Opcoes.florestaCopas:
+                if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
+                {
+                    if (script.enigmaTroll == 0 || script.enigmaBruxa == 0)
+                    {
+                        dialogo= Random.Range(1, 3);
+                        if (dialogo == 1)
+                        {
+                            ConversationManager.Instance.StartConversation(dialogo1);
+                        }
+                        if(dialogo == 2)
+                        {
+                            ConversationManager.Instance.StartConversation(dialogo2);
+                        }
+                    }
+                    if (script.enigmaTroll == 2 && script.enigmaBruxa == 2)
+                    {
+                        ConversationManager.Instance.StartConversation(dialogo3);
+                    }
+                }
+                break;
+            case Opcoes.guardaFinal:
+                if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
+                {
+                    if(script.enigmaBruxa == 1 && script.enigmaTroll == 1)
+                    {
+                        ConversationManager.Instance.StartConversation(dialogo1);
                     }
                 }
                 break;

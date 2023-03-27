@@ -7,7 +7,7 @@ public class ItensMenuColecionavel : MonoBehaviour
 {
     [SerializeField] private Image[] item;
     [SerializeField] private GameObject itemInfo, itemDica;
-    public enum Opcoes { item1, item2, item3, item4, item5 };
+    public enum Opcoes { item1, item2, item3, item4, };
     public Opcoes opcoes;
     private GlobalVars script;
 
@@ -61,17 +61,6 @@ public class ItensMenuColecionavel : MonoBehaviour
                     var tempColor = item[3].color;
                     tempColor.a = 1f;
                     item[3].color = tempColor;
-                }
-                break;
-
-            case (Opcoes.item5):
-                if (script.colecionaveis == 4)
-                {
-                    itemInfo.SetActive(true);
-                    itemDica.SetActive(false);
-                    var tempColor = item[4].color;
-                    tempColor.a = 1f;
-                    item[4].color = tempColor;
                 }
                 break;
         }
