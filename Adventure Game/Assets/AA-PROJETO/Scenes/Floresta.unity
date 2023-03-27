@@ -1188,7 +1188,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.03333336, y: 0.03333336, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -11409,7 +11409,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.03333336, y: 0.03333336, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -63529,26 +63529,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
   m_PrefabInstance: {fileID: 1952066039}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1952066041 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3708520696249363073, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
-  m_PrefabInstance: {fileID: 1952066039}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1952066042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952066041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07eb73aa0c916e942963f740eda6c8c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 3338560067765877630}
-  item1: {fileID: 0}
-  main: {fileID: 0}
 --- !u!95 &1952066043 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3708520696249363080, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
@@ -67691,6 +67671,7 @@ GameObject:
   - component: {fileID: 8706179580157255679}
   - component: {fileID: 8804921294757114664}
   - component: {fileID: 8804921294757114665}
+  - component: {fileID: 8804921294757114666}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -67738,6 +67719,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9945e1c9283244c46b4bed3496c234b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8804921294757114666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8706179580157255668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31b0bba959619a48b72ce0c2a325f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main: {fileID: 1749774865}
+  canvas: {fileID: 3338560067765877630}
 --- !u!4 &8940379689206734806
 Transform:
   m_ObjectHideFlags: 0
