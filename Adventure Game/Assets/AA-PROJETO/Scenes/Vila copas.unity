@@ -4759,7 +4759,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7555366820115407498}
         m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
-        m_MethodName: Puzzle
+        m_MethodName: FlorestaDeCopas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6271,7 +6271,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7555366820115407498}
         m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
-        m_MethodName: Puzzle
+        m_MethodName: FlorestaDeCopas
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
