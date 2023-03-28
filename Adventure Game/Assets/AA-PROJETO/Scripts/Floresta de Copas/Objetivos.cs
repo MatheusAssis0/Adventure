@@ -14,15 +14,20 @@ public class Objetivos : MonoBehaviour
 
     private void Update()
     {
-        if(script.enigmaBruxa == 1 || script.enigmaTroll == 1)
+        if (script.enigmaBruxa == 1 || script.enigmaTroll == 1)
         {
             objetivo1.SetActive(false);
             objetivo2.SetActive(true);
         }
-        else if(script.enigmaBruxa == 1 && script.enigmaTroll == 1)
+        else if (script.enigmaBruxa == 1 && script.enigmaTroll == 1)
         {
             objetivo2.SetActive(false);
             objetivo3.SetActive(true);
         }
+    }
+
+    public void EnigmaGuardaFloresta()
+    {
+        script.enigmaGuardaFloresta = true;
     }
 }

@@ -14,6 +14,7 @@ public class GlobalVars : MonoBehaviour
     public int itens;
     public int colecionaveis;
     public int enigmaTroll, enigmaBruxa, enigmaGuarda;
+    public bool enigmaGuardaFloresta;
     public bool colecionavel;
     public bool isPaused;
     public bool narradorTroll, narradorBruxa;

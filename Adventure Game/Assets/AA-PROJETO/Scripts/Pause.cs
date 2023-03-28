@@ -105,7 +105,8 @@ public class Pause : MonoBehaviour
         script_.colecionaveis = -1;
         script_.enigmaBruxa = 0;
         script_.enigmaTroll = 0;
-        script_.enigmaGuarda= 0;
+        script_.enigmaGuarda = 0;
+        script_.enigmaGuardaFloresta = false;
         script_.narradorBruxa = false;
         script_.narradorTroll = false;
     }

@@ -56,4 +56,8 @@ public class DarItem : MonoBehaviour
     {
         script.colecionaveis = 3;
     }
+    public void ZerarInventario()
+    {
+        script.itens = -1;
+    }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class DialogoTrollBruxa : MonoBehaviour
 {
     [SerializeField] private NPCConversation dialogo1, dialogo2, dialogo3; 
-    public enum Opcoes { bruxa, troll, outrosBruxa, outrosTroll, florestaCopas, guardaFinal}
+    public enum Opcoes { bruxa, troll, outrosBruxa, outrosTroll, florestaCopas, guardaFinal, castelo}
     public Opcoes opcoes;
     private GlobalVars script;
     private bool podeInteragir;
@@ -129,6 +129,27 @@ public class DialogoTrollBruxa : MonoBehaviour
                     if(script.enigmaBruxa == 1 && script.enigmaTroll == 1)
                     {
                         ConversationManager.Instance.StartConversation(dialogo1);
+                    }
+                }
+                break;
+            case Opcoes.castelo:
+                if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
+                {
+                    if(script.enigmaGuardaFloresta == true)
+                    {
+                        ConversationManager.Instance.StartConversation(dialogo3);
+                    }
+                    else
+                    {
+                        dialogo = Random.Range(1, 3);
+                        if(dialogo == 1)
+                        {
+                            ConversationManager.Instance.StartConversation(dialogo1);
+                        }
+                        if(dialogo == 2)
+                        {
+                            ConversationManager.Instance.StartConversation(dialogo2);
+                        }
                     }
                 }
                 break;
