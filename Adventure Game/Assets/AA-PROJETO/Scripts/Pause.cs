@@ -106,9 +106,11 @@ public class Pause : MonoBehaviour
         script_.enigmaBruxa = 0;
         script_.enigmaTroll = 0;
         script_.enigmaGuarda = 0;
+        script_.guardaBruxa = false;
         script_.enigmaGuardaFloresta = false;
         script_.narradorBruxa = false;
         script_.narradorTroll = false;
+        script_.tutorialFlorestaCopas = false;
     }
 
     public void QuitGame()

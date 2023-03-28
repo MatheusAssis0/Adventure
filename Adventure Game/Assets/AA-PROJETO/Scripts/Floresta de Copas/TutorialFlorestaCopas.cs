@@ -6,10 +6,20 @@ public class TutorialFlorestaCopas : MonoBehaviour
 {
     [SerializeField] private GameObject tutorial1, tutorial2, tutorial3, Tutorial;
     private int cKeyCount, iKeyCount;
+    private GlobalVars script;
 
+    private void Start()
+    {
+        script = FindObjectOfType<GlobalVars>();
+    }
 
     private void Update()
     {
+        if(script.tutorialFlorestaCopas == true)
+        {
+            Tutorial.SetActive(false);
+        }
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             cKeyCount++;
@@ -46,6 +56,7 @@ public class TutorialFlorestaCopas : MonoBehaviour
     private void desligarTutorial3()
     {
         Tutorial.SetActive(false);
+        script.tutorialFlorestaCopas = true;
     }
 
     private void ligarTutorial3()

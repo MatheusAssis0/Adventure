@@ -337,7 +337,7 @@ TilemapRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.03333336, y: 0.03333336, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -7111,7 +7111,7 @@ TilemapRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.03333336, y: 0.03333336, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -8622,7 +8622,6 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
-  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8714,18 +8713,6 @@ MonoBehaviour:
   minX: -29.07
   maxX: 80
   smooth: 4
---- !u!114 &519420034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cc826e995ad7924e898aab14e3628ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &522419466
 GameObject:
   m_ObjectHideFlags: 0
@@ -10868,7 +10855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPlayer: {fileID: 519420028}
-  speedParallax: 0.8
+  speedParallax: 0.9
 --- !u!212 &958796428
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14660,7 +14647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPlayer: {fileID: 519420028}
-  speedParallax: 0.9
+  speedParallax: 1.1
 --- !u!212 &1928156782
 SpriteRenderer:
   m_ObjectHideFlags: 0

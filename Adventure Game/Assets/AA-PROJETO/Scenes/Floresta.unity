@@ -60625,7 +60625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPlayer: {fileID: 1749774863}
-  speedParallax: 0.2
+  speedParallax: 0.4
 --- !u!212 &1079262317
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -62815,7 +62815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPlayer: {fileID: 1749774863}
-  speedParallax: 0.2
+  speedParallax: 0.5
 --- !u!212 &1843269439
 SpriteRenderer:
   m_ObjectHideFlags: 0

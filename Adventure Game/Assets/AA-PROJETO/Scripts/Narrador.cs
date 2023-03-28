@@ -42,8 +42,8 @@ public class Narrador : MonoBehaviour
                 }
                 Invoke("Texto2", 5f);
                 Invoke("Texto3", 10f);
-                Invoke("Texto4", 15f);
-                Invoke("FimBruxa", 20f);
+                Invoke("Texto4", 18f);
+                Invoke("FimBruxa", 23f);
                 break;
                   
         }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class DialogoTrollBruxa : MonoBehaviour
 {
     [SerializeField] private NPCConversation dialogo1, dialogo2, dialogo3; 
-    public enum Opcoes { bruxa, troll, outrosBruxa, outrosTroll, florestaCopas, guardaFinal, castelo}
+    public enum Opcoes { bruxa, troll, outrosBruxa, outrosTroll, florestaCopas, castelo}
     public Opcoes opcoes;
     private GlobalVars script;
     private bool podeInteragir;
@@ -33,7 +33,7 @@ public class DialogoTrollBruxa : MonoBehaviour
                     {
                         ConversationManager.Instance.StartConversation(dialogo1);
                     }
-                    if (script.enigmaBruxa == 0 && script.enigmaTroll == 1)
+                    if (script.enigmaBruxa == 0 && script.enigmaTroll >= 1)
                     {
                         ConversationManager.Instance.StartConversation(dialogo2);
                     }
@@ -50,7 +50,7 @@ public class DialogoTrollBruxa : MonoBehaviour
                     {
                         ConversationManager.Instance.StartConversation(dialogo1);
                     }
-                    if (script.enigmaBruxa == 1 && script.enigmaTroll == 0)
+                    if (script.enigmaBruxa >= 1 && script.enigmaTroll == 0)
                     {
                         ConversationManager.Instance.StartConversation(dialogo2);
                     }
@@ -120,15 +120,6 @@ public class DialogoTrollBruxa : MonoBehaviour
                     if (script.enigmaTroll == 2 && script.enigmaBruxa == 2)
                     {
                         ConversationManager.Instance.StartConversation(dialogo3);
-                    }
-                }
-                break;
-            case Opcoes.guardaFinal:
-                if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
-                {
-                    if(script.enigmaBruxa == 1 && script.enigmaTroll == 1)
-                    {
-                        ConversationManager.Instance.StartConversation(dialogo1);
                     }
                 }
                 break;

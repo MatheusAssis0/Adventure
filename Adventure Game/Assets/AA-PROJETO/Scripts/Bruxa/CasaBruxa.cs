@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class CasaBruxa : MonoBehaviour
 {
-    [SerializeField] private Animator anim;
-    [SerializeField] private GameObject guarda;
     private GlobalVars script;
+    private PlayerMovement script_;
+    [SerializeField] private GameObject Tutorial;
 
     private void Start()
     {
         script = FindObjectOfType<GlobalVars>();
+        script_ = FindObjectOfType<PlayerMovement>();
     }
 
     private void Update()
     {
-        if(script.enigmaGuarda == 1)
+        if(Tutorial.activeSelf == true)
         {
-            anim.SetBool("enigma", true);
-            Invoke("DestruirGuarda", 2f);
+            script_.enabled = false;
+        }
+        else
+        {
+            script_.enabled = true;
         }
     }
 
@@ -35,10 +39,5 @@ public class CasaBruxa : MonoBehaviour
     public void ZerouBruxa()
     {
         script.enigmaBruxa = 2;
-    }
-
-    private void DestruirGuarda()
-    {
-        Destroy(guarda);
     }
 }

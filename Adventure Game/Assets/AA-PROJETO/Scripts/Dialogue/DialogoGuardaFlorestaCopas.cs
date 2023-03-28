@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
 
-public class DialogoPlaca : MonoBehaviour
+public class DialogoGuardaFlorestaCopas : MonoBehaviour
 {
-    [SerializeField] private NPCConversation dialogo1, dialogoSemTroll, dialogoSemBruxa, dialogo2;
-    private bool podeInteragir;
+    [SerializeField] private NPCConversation dialogo1, dialogo2, dialogo3;
+    private bool podeInteragir, interagiu, jaInteragiu;
     private GlobalVars script;
 
     private void Start()
@@ -16,33 +16,31 @@ public class DialogoPlaca : MonoBehaviour
 
     private void Update()
     {
-        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
+        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive || jaInteragiu == true)
         {
             return;
         }
         else
         {
-            if (podeInteragir == true && Input.GetKeyDown(KeyCode.E))
+            if (podeInteragir == true)
             {
-                if (script.enigmaTroll == 2)
+                if (script.enigmaBruxa >= 1 && script.enigmaTroll >= 1 && Input.GetKeyDown(KeyCode.E))
                 {
-                    ConversationManager.Instance.StartConversation(dialogoSemTroll);
+                    ConversationManager.Instance.StartConversation(dialogo3);
                 }
-                if (script.enigmaBruxa == 2)
-                {
-                    ConversationManager.Instance.StartConversation(dialogoSemBruxa);
-                }
-                if (script.enigmaBruxa == 2 && script.enigmaTroll == 2)
-                {
-                    ConversationManager.Instance.StartConversation(dialogo2);
-                }
-                if(script.enigmaBruxa != 2 && script.enigmaTroll != 2)
+                else if (Input.GetKeyDown(KeyCode.E) && interagiu == false)
                 {
                     ConversationManager.Instance.StartConversation(dialogo1);
+                    interagiu = true;
+                }
+                else if (Input.GetKeyDown(KeyCode.E) && interagiu == true)
+                {
+                    ConversationManager.Instance.StartConversation(dialogo2);
                 }
             }
         }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -57,5 +55,10 @@ public class DialogoPlaca : MonoBehaviour
         {
             podeInteragir = false;
         }
+    }
+
+    public void FimEnigma()
+    {
+        jaInteragiu = true;
     }
 }
