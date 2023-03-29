@@ -101,8 +101,6 @@ public class Pause : MonoBehaviour
         script_.CC = 0;
         script_.introVila = 0;
         script_.objtvCasa = 0;
-        script_.itens = -1;
-        script_.colecionaveis = -1;
         script_.enigmaBruxa = 0;
         script_.enigmaTroll = 0;
         script_.enigmaGuarda = 0;
@@ -111,6 +109,13 @@ public class Pause : MonoBehaviour
         script_.narradorBruxa = false;
         script_.narradorTroll = false;
         script_.tutorialFlorestaCopas = false;
+        script_.itemBruxa = false;
+        script_.itemFlor = false;
+        script_.itemTroll = false;
+        script_.colecionavelCoracao = false;
+        script_.colecionavelFlor = false;
+        script_.colecionavelPena = false;
+        script_.colecionavelVeludo = false;
     }
 
     public void QuitGame()

@@ -11,19 +11,13 @@ public class GlobalVars : MonoBehaviour
     public int CC;
     public int introVila;
     public int objtvCasa;
-    public int itens;
-    public int colecionaveis;
     public int enigmaTroll, enigmaBruxa, enigmaGuarda;
+    public bool itemFlor, itemBruxa, itemTroll;
+    public bool colecionavelFlor, colecionavelPena, colecionavelCoracao, colecionavelVeludo;
     public bool guardaBruxa;
     public bool tutorialFlorestaCopas;
     public bool enigmaGuardaFloresta;
     public bool colecionavel;
     public bool isPaused;
     public bool narradorTroll, narradorBruxa;
-
-    private void Awake()
-    {
-        itens = -1;
-        colecionaveis= -1;
-    }
 }

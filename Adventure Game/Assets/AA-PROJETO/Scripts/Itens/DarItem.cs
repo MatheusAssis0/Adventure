@@ -12,52 +12,41 @@ public class DarItem : MonoBehaviour
     }
     public void DarItem1()
     {
-        script.itens = 0;
+        script.itemFlor = true;
     }
     public void DarItemBruxa()
     {
-        script.itens = 1;
+        script.itemBruxa = true;
     }
     public void DarItemTroll()
     {
-        script.itens = 2;
+        script.itemTroll = true;
     }
-    public void DarItem4()
-    {
-        script.itens = 3;
-    }
-    public void DarItem5()
-    {
-        script.itens = 4;
-    }
-    public void DarItem6()
-    {
-        script.itens = 5;
-    }
-    public void DarItem7()
-    {
-        script.itens = 6;
-    }
-
     public void DarColecionavelFlor()
     {
-        script.colecionaveis = 0;
+        script.colecionavelFlor = true;
     }
     public void DarColecionavelCoracao()
     {
-        script.colecionaveis = 1;
+        script.colecionavelCoracao = true;
     }
 
     public void DarColecionavelPena()
     {
-        script.colecionaveis = 2;
+        script.colecionavelPena = true;
     }
     public void DarColecionavelVeludo()
     {
-        script.colecionaveis = 3;
+        script.colecionavelVeludo = true;
     }
     public void ZerarInventario()
     {
-        script.itens = -1;
+        script.itemBruxa = false;
+        script.itemFlor = false;
+        script.itemTroll = false;
+        script.colecionavelCoracao = false;
+        script.colecionavelFlor = false;
+        script.colecionavelPena = false;
+        script.colecionavelVeludo = false;
     }
 }

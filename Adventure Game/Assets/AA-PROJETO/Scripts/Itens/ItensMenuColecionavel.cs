@@ -21,7 +21,7 @@ public class ItensMenuColecionavel : MonoBehaviour
         switch (opcoes)
         {
             case (Opcoes.item1):
-                if (script.colecionaveis == 0)
+                if (script.colecionavelFlor == true)
                 {
                     itemInfo.SetActive(true);
                     itemDica.SetActive(false);
@@ -32,7 +32,7 @@ public class ItensMenuColecionavel : MonoBehaviour
                 break;
 
             case (Opcoes.item2):
-                if (script.colecionaveis == 1)
+                if (script.colecionavelCoracao == true)
                 {
                     itemInfo.SetActive(true);
                     itemDica.SetActive(false);
@@ -43,7 +43,7 @@ public class ItensMenuColecionavel : MonoBehaviour
                 break;
 
             case (Opcoes.item3):
-                if (script.colecionaveis == 2)
+                if (script.colecionavelPena == true)
                 {
                     itemInfo.SetActive(true);
                     itemDica.SetActive(false);
@@ -54,7 +54,7 @@ public class ItensMenuColecionavel : MonoBehaviour
                 break;
 
             case (Opcoes.item4):
-                if (script.colecionaveis == 3)
+                if (script.colecionavelVeludo == true)
                 {
                     itemInfo.SetActive(true);
                     itemDica.SetActive(false);
@@ -65,7 +65,7 @@ public class ItensMenuColecionavel : MonoBehaviour
                 break;
         }
 
-        if (script.colecionaveis == -1)
+        if (script.colecionavelVeludo == false && script.colecionavelCoracao == false && script.colecionavelPena == false && script.colecionavelFlor == false)
         {
             foreach (Image img in item)
             {

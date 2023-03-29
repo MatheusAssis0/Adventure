@@ -14,20 +14,17 @@ public class Inventario : MonoBehaviour
 
     private void Update()
     {
-        for (int i = 0; i < 8; i++)
+        if(script.itemFlor == true)
         {
-            if (script.itens == i)
-            {
-                itens[i].SetActive(true);
-            }
+            itens[0].SetActive(true);
         }
-
-        if (script.itens == -1f)
+        if(script.itemBruxa == true)
         {
-            foreach (GameObject obj in itens)
-            {
-                obj.SetActive(false);
-            }
+            itens[1].SetActive(true);
+        }
+        if(script.itemTroll == true)
+        {
+            itens[2].SetActive(true);
         }
     }
 }
