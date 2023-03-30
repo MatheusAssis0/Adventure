@@ -11,12 +11,14 @@ public class Pause : MonoBehaviour
     [SerializeField] private GameObject _sair;
     private Transicao script;
     private GlobalVars script_;
+    private AudioManager audioManager;
 
     private void Start()
     {
         pauseMenu.SetActive(false);
         script = FindObjectOfType<Transicao>();
         script_ = FindObjectOfType<GlobalVars>();
+        audioManager = FindObjectOfType<AudioManager>();
         
     }
     private void Update()
@@ -37,6 +39,7 @@ public class Pause : MonoBehaviour
                     controles.SetActive(false);
                     Time.timeScale = 1f;
                     script_.isPaused = false;
+                    audioManager.SaveSoundSettings();
                 }
                 else
                 {

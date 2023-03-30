@@ -5,6 +5,7 @@ using UnityEngine;
 public class mudaCamera2 : MonoBehaviour
 {
     [SerializeField] private Camera cam1, cam2;
+    [SerializeField] private Canvas pause;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,6 +13,7 @@ public class mudaCamera2 : MonoBehaviour
         {
                 cam1.depth = 1;
                 cam2.depth = 0;
+            pause.worldCamera = cam1;
         }
     }
 }
