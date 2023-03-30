@@ -12,6 +12,7 @@ public class Pause : MonoBehaviour
     private Transicao script;
     private GlobalVars script_;
     private AudioManager audioManager;
+    private GameObject musica;
 
     private void Start()
     {
@@ -19,6 +20,7 @@ public class Pause : MonoBehaviour
         script = FindObjectOfType<Transicao>();
         script_ = FindObjectOfType<GlobalVars>();
         audioManager = FindObjectOfType<AudioManager>();
+        musica = GameObject.FindGameObjectWithTag("Musica1");
         
     }
     private void Update()
@@ -98,6 +100,7 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1f;
         script_.isPaused = false;
         script.Transition("Menu");
+        Object.Destroy(musica);
         script_.A = 0;
         script_.T = 0;
         script_.C = 0;

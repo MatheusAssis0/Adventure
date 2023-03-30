@@ -7,10 +7,12 @@ public class FimCasa : MonoBehaviour
 {
     [SerializeField] private GameObject texto1, texto2, texto3, texto4, fimImagem, fundoTexto;
     private Transicao script;
+    private PlayerMovement script_;
 
     private void Start()
     {
         script = FindObjectOfType<Transicao>();
+        script_ = FindObjectOfType<PlayerMovement>();
     }
 
     private void Texto1()
@@ -51,6 +53,7 @@ public class FimCasa : MonoBehaviour
     public void inicio()
     {
         fimImagem.SetActive(true);
+        script_.enabled = false;
         Invoke("Texto1", 1f);
         Invoke("Texto2", 6f);
         Invoke("Texto3", 11f);

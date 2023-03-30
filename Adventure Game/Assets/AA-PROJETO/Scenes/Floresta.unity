@@ -60703,6 +60703,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1181199684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6310843905439757945, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_Name
+      value: Musica Vila
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310843905439757951, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+--- !u!82 &1181199685 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6310843905439757950, guid: 831adeb32993ac1478bec54cffc33983, type: 3}
+  m_PrefabInstance: {fileID: 1181199684}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1197665925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 363561004066749335, guid: a103304424ccf4c44af9be147244b7c2, type: 3}
@@ -67883,6 +67945,7 @@ GameObject:
   - component: {fileID: 8804921294757114664}
   - component: {fileID: 8804921294757114665}
   - component: {fileID: 8804921294757114666}
+  - component: {fileID: 8804921294757114667}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -67944,6 +68007,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   main: {fileID: 1749774865}
   canvas: {fileID: 3338560067765877630}
+--- !u!114 &8804921294757114667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8706179580157255668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6054bffe623224b499d1f82a80764b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: []
+  musica: {fileID: 1181199685}
 --- !u!4 &8940379689206734806
 Transform:
   m_ObjectHideFlags: 0

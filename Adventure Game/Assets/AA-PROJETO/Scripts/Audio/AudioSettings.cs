@@ -13,6 +13,12 @@ public class AudioSettings : MonoBehaviour
         ContinuousSettings();
     }
 
+    private void Start()
+    {
+        GameObject Musica = GameObject.FindGameObjectWithTag("Musica1");
+        musica = Musica.GetComponent<AudioSource>();
+    }
+
     private void ContinuousSettings()
     {
         backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref);
