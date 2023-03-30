@@ -7,16 +7,19 @@ public class TransicaoManager : MonoBehaviour
 {
     private Transicao script;
     private GlobalVars script_;
+    private GameObject musica;
 
     private void Start()
     {
         script = FindObjectOfType<Transicao>();
         script_ = FindObjectOfType<GlobalVars>();
+        musica = GameObject.FindGameObjectWithTag("Musica1");
     }
     public void Play()
     {
         script_.T = 1;
         script.Transition("Casa");
+        Invoke("DestruirMusicaMenu", 1f);
     }
 
     public void Vila()
@@ -47,5 +50,10 @@ public class TransicaoManager : MonoBehaviour
     public void Puzzle()
     {
         script.Transition("Puzzle");
+    }
+
+    private void DestruirMusicaMenu()
+    {
+        Object.Destroy(musica);
     }
 }

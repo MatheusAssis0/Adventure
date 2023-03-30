@@ -100,7 +100,7 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1f;
         script_.isPaused = false;
         script.Transition("Menu");
-        Object.Destroy(musica);
+        Invoke("DestruirMusica", 1f);
         script_.A = 0;
         script_.T = 0;
         script_.C = 0;
@@ -168,5 +168,9 @@ public class Pause : MonoBehaviour
     {
         _sair.SetActive(false);
         Time.timeScale = 1f;
+    }
+    private void DestruirMusica()
+    {
+        Object.Destroy(musica);
     }
 }

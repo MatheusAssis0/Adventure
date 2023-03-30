@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private float forcaPulo;
     public bool isFacingRight = true;
     public Transform player;
-    [SerializeField] public Rigidbody2D rb;
+    [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private GameObject pauseMenu;
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }

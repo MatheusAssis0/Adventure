@@ -7,6 +7,7 @@ public class CasasVila : MonoBehaviour
     private Transicao script;
     private GlobalVars script_;
     private bool podeInteragir;
+    [SerializeField] private AudioSource porta;
     public enum Opcoes { casa1, casa2, casa3 };
     public Opcoes opcoes;
 
@@ -24,6 +25,7 @@ public class CasasVila : MonoBehaviour
                 {
                     if (Input.GetKeyDown(KeyCode.E))
                     {
+                        porta.Play();
                         script_.C = 1;
                         script_.A = Random.Range(2,4);
                         script.Transition("Casa");
@@ -36,6 +38,7 @@ public class CasasVila : MonoBehaviour
                 {
                     if (Input.GetKeyDown(KeyCode.E))
                     {
+                        porta.Play();
                         script_.C = 2;
                         script_.A = Random.Range(2, 4);
                         script.Transition("Casa");
@@ -48,6 +51,7 @@ public class CasasVila : MonoBehaviour
                 {
                     if (Input.GetKeyDown(KeyCode.E))
                     {
+                        porta.Play();
                         script.Transition("Casa");
                     }
                 }

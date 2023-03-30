@@ -311,14 +311,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 9
-  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":437,\"yPos\":335},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"End\",\"parentUIDs\":[7],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":426,\"yPos\":-331},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUou,
-    que ventania \xE9 essa?\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":435,\"yPos\":-234},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUfa,
-    que bom que passou!\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":432,\"yPos\":-141},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEspera,
-    o que ser\xE1 que \xE9 aquilo???\u201D\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":432,\"yPos\":-51},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perguntou
+  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":361.5,\"yPos\":688},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"End\",\"parentUIDs\":[7],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":350.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUou,
+    que ventania \xE9 essa?\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":359.5,\"yPos\":119},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUfa,
+    que bom que passou!\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":356.5,\"yPos\":212},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEspera,
+    o que ser\xE1 que \xE9 aquilo???\u201D\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":356.5,\"yPos\":302},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perguntou
     Cheshire se aproximando de um peda\xE7o de tecido que tinha ficado preso na porta
-    da casa.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":443,\"yPos\":46},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CNossa,
-    ele se mexe sozinho!!!\u201D\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":433,\"yPos\":141},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CCerteza
-    que voc\xEA ser\xE1 \xFAtil nessa aventura!\u201D\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":439,\"yPos\":237},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
+    da casa.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":367.5,\"yPos\":399},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CNossa,
+    ele se mexe sozinho!!!\u201D\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":357.5,\"yPos\":494},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CCerteza
+    que voc\xEA ser\xE1 \xFAtil nessa aventura!\u201D\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":363.5,\"yPos\":590},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
     Cheshire pegando o peda\xE7o de tecido.\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -337,31 +337,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2774565047886425961}
-        m_TargetAssemblyTypeName: CasaBruxa, Assembly-CSharp
-        m_MethodName: ZerouBruxa
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2774565047886425957}
-        m_TargetAssemblyTypeName: TransicaoManager, Assembly-CSharp
-        m_MethodName: FlorestaDeCopas
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &229789350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,55 +1838,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 47
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-70,\"yPos\":975},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Chapeleiro
-    20, Lebre de Mar\xE7o 10 e Leir\xE3o 5.\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":169,\"yPos\":978},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Chapeleiro
-    40, Lebre de Mar\xE7o 20 e Leir\xE3o 10.\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":391,\"yPos\":977},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Chapeleiro
-    24, Lebre de Mar\xE7o 8 e Leir\xE3o 4.\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":614,\"yPos\":978},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Chapeleiro
-    10, Lebre de Mar\xE7o 5 e Leir\xE3o 1.\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":577,\"yPos\":863},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Escutar
-    novamente\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-77,\"yPos\":1529},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tentar
-    novamente\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":396,\"yPos\":1409},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"End\",\"parentUIDs\":[45],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":321,\"yPos\":-1804},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"O
-    cavaleiro foi embora e Cheshire bateu na porta:\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":319,\"yPos\":-1706},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEle
-    j\xE1 foi embora, n\xE3o precisa se preocupar.\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":328,\"yPos\":-1617},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201COi?
-    Tem algu\xE9m a\xED?\u201D\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":323,\"yPos\":-1523},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Cheshire
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-62.5,\"yPos\":1216},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Chapeleiro
+    20, Lebre de Mar\xE7o 10 e Leir\xE3o 5.\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":176.5,\"yPos\":1219},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Chapeleiro
+    40, Lebre de Mar\xE7o 20 e Leir\xE3o 10.\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":398.5,\"yPos\":1218},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Chapeleiro
+    24, Lebre de Mar\xE7o 8 e Leir\xE3o 4.\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":621.5,\"yPos\":1219},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Chapeleiro
+    10, Lebre de Mar\xE7o 5 e Leir\xE3o 1.\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":584.5,\"yPos\":1104},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Escutar
+    novamente\",\"parentUIDs\":[30],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-69.5,\"yPos\":1770},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tentar
+    novamente\",\"parentUIDs\":[40],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":403.5,\"yPos\":1650},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"End\",\"parentUIDs\":[45],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":328.5,\"yPos\":-1563},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"O
+    cavaleiro foi embora e Cheshire bateu na porta:\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":326.5,\"yPos\":-1465},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEle
+    j\xE1 foi embora, n\xE3o precisa se preocupar.\u201D\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":335.5,\"yPos\":-1376},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201COi?
+    Tem algu\xE9m a\xED?\u201D\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":330.5,\"yPos\":-1282},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Cheshire
     preocupado decide entrar para ver se estava tudo bem. Mas antes que ele tivesse
-    a oportunidade, a bruxa abre a porta e sai.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":324,\"yPos\":-1424},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CSer\xE1
-    que ele ainda est\xE1 aqui?\u201D- Ela pergunta em baixa voz.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":317,\"yPos\":-1323},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o,
-    eu acabei de dizer. Voc\xEA n\xE3o ouviu?\u201D\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":318,\"yPos\":-1236},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201COh,
-    o que ser\xE1 que temos aqui?\u201D\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":313,\"yPos\":-1140},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHm,
-    voc\xEA est\xE1 bem?\u201D\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":319,\"yPos\":-1047},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CInteressante\u2026\u201D\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":315,\"yPos\":-956},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDiga-me
-    rapaz, voc\xEA percebeu como \xE9 quieto aqui?\u201D\\r\\nQuieto? Como assim?\u201D\\r\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":327,\"yPos\":-857},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Bom,
-    \xE9 que essa casa tem um poder especial, sabia?\u201D\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":309,\"yPos\":-764},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEla
-    tem uma barreira protetora que n\xE3o permite som nenhum entrar nela, ou sair\u2026\u201D\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":312,\"yPos\":-670},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Ah,
-    por isso que voc\xEA n\xE3o me escutou?\u201D\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":295,\"yPos\":-583},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CExatamente!\u201D\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":285,\"yPos\":-483},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CNossa,
-    que incr\xEDvel!\u201D\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":294,\"yPos\":-378},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201C\xC9
-    mesmo, mas ainda tem mais.\u201D\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":289,\"yPos\":-281},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAcontece
+    a oportunidade, a bruxa abre a porta e sai.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":331.5,\"yPos\":-1183},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CSer\xE1
+    que ele ainda est\xE1 aqui?\u201D- Ela pergunta em baixa voz.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":324.5,\"yPos\":-1082},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o,
+    eu acabei de dizer. Voc\xEA n\xE3o ouviu?\u201D\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":325.5,\"yPos\":-995},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201COh,
+    o que ser\xE1 que temos aqui?\u201D\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":320.5,\"yPos\":-899},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHm,
+    voc\xEA est\xE1 bem?\u201D\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":326.5,\"yPos\":-806},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CInteressante\u2026\u201D\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":322.5,\"yPos\":-715},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CDiga-me
+    rapaz, voc\xEA percebeu como \xE9 quieto aqui?\u201D\\r\\nQuieto? Como assim?\u201D\\r\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":334.5,\"yPos\":-616},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Bom,
+    \xE9 que essa casa tem um poder especial, sabia?\u201D\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":316.5,\"yPos\":-523},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEla
+    tem uma barreira protetora que n\xE3o permite som nenhum entrar nela, ou sair\u2026\u201D\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":319.5,\"yPos\":-429},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Ah,
+    por isso que voc\xEA n\xE3o me escutou?\u201D\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":302.5,\"yPos\":-342},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CExatamente!\u201D\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":292.5,\"yPos\":-242},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CNossa,
+    que incr\xEDvel!\u201D\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":301.5,\"yPos\":-137},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201C\xC9
+    mesmo, mas ainda tem mais.\u201D\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":296.5,\"yPos\":-40},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAcontece
     que essa casa permite a todos entrar, mas apenas aqueles que merecem conseguem
-    dela se libertar.\u201D \",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":290,\"yPos\":-182},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CJ\xE1
-    que voc\xEA na porta bateu, seu destino com o dela se envolveu.\u201D\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":281,\"yPos\":-85},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CMas
-    eu n\xE3o posso ficar aqui, preciso conhecer a rainha e saber a verdade!\u201D\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":293,\"yPos\":14},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEst\xE1
-    disposto a tentar?\u201D\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":280,\"yPos\":104},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CSim!
-    Quando podemos come\xE7ar?\u201D\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":284,\"yPos\":200},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CO
+    dela se libertar.\u201D \",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":297.5,\"yPos\":59},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CJ\xE1
+    que voc\xEA na porta bateu, seu destino com o dela se envolveu.\u201D\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":288.5,\"yPos\":156},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CMas
+    eu n\xE3o posso ficar aqui, preciso conhecer a rainha e saber a verdade!\u201D\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":300.5,\"yPos\":255},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEst\xE1
+    disposto a tentar?\u201D\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":287.5,\"yPos\":345},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CSim!
+    Quando podemos come\xE7ar?\u201D\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":291.5,\"yPos\":441},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CO
     Chapeleiro, a Lebre de Mar\xE7o e o Leir\xE3o est\xE3o todos tomando ch\xE1;
-    e o Leir\xE3o est\xE1 bem acordado e tamb\xE9m quer tortas. \",\"parentUIDs\":[22,35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":280,\"yPos\":294},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bem,
+    e o Leir\xE3o est\xE1 bem acordado e tamb\xE9m quer tortas. \",\"parentUIDs\":[22,35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":287.5,\"yPos\":535},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bem,
     o Chapeleiro j\xE1 arrumou a mesa e deu a si mesmo o triplo das tortas que deu
-    \xE0 Lebre de Mar\xE7o e o Leir\xE3o s\xF3 recebeu metade das da Lebre de Mar\xE7o.\\r\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":274,\"yPos\":387},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
-    O pobre Leir\xE3o foi mesmo o que levou a pior!- Disse Bunnymallow, solid\xE1ria.\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":259,\"yPos\":484},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
+    \xE0 Lebre de Mar\xE7o e o Leir\xE3o s\xF3 recebeu metade das da Lebre de Mar\xE7o.\\r\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":281.5,\"yPos\":628},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
+    O pobre Leir\xE3o foi mesmo o que levou a pior!- Disse Bunnymallow, solid\xE1ria.\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":266.5,\"yPos\":725},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
     Decididamente!- Replicou o Grifo. Seja como for, o Chapeleiro tinha 20 vezes
-    mais tortas do que o Leir\xE3o.\\r\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":264,\"yPos\":576},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
-    Isso \xE9 um n\xFAmero enorme de tortas!- exclamou Bunnymallow.\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":270,\"yPos\":667},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
+    mais tortas do que o Leir\xE3o.\\r\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":271.5,\"yPos\":817},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
+    Isso \xE9 um n\xFAmero enorme de tortas!- exclamou Bunnymallow.\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":277.5,\"yPos\":908},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
     Nem tanto- respondeu o Grifo-, porque as tortas eram extremamente pequenas. Enfim,
-    quantas tortas tinha cada um?\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":270,\"yPos\":761},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
-    E voc\xEA n\xE3o precisa de \xE1lgebra nenhuma!-acrescentou o Grifo.\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":275,\"yPos\":861},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qual
-    \xE9 a solu\xE7\xE3o?\\\"\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-66,\"yPos\":1046},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CSim,
-    SIM!\u201D\",\"parentUIDs\":[31,32,34],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-75,\"yPos\":1146},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CFinalmente,
-    vou ter uma refei\xE7\xE3o decente para variar!\u201D\",\"parentUIDs\":[36],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-77,\"yPos\":1242},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o
-    aguento mais esses doces beliscar.\u201D\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-77,\"yPos\":1333},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEnt\xE3o,
-    meu rapaz, qual ser\xE1 o sabor que a sua carne traz?\u201D\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-82,\"yPos\":1433},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perguntou
+    quantas tortas tinha cada um?\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":277.5,\"yPos\":1002},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"-
+    E voc\xEA n\xE3o precisa de \xE1lgebra nenhuma!-acrescentou o Grifo.\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":282.5,\"yPos\":1102},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qual
+    \xE9 a solu\xE7\xE3o?\\\"\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-58.5,\"yPos\":1287},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CSim,
+    SIM!\u201D\",\"parentUIDs\":[31,32,34],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-67.5,\"yPos\":1387},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CFinalmente,
+    vou ter uma refei\xE7\xE3o decente para variar!\u201D\",\"parentUIDs\":[36],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-69.5,\"yPos\":1483},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CN\xE3o
+    aguento mais esses doces beliscar.\u201D\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-69.5,\"yPos\":1574},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CEnt\xE3o,
+    meu rapaz, qual ser\xE1 o sabor que a sua carne traz?\u201D\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-74.5,\"yPos\":1674},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perguntou
     a bruxa, antes de puxar o Cheshire para dentro da casa e jog\xE1-lo no Caldeir\xE3o.
-    \",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":389,\"yPos\":1045},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHum,
-    trato \xE9 trato, n\xE3o discuto n\xE3o!\u201D\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":389,\"yPos\":1137},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAgora,
-    vai embora e leve a minha refei\xE7\xE3o.\u201D\",\"parentUIDs\":[42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":45}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":393,\"yPos\":1226},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
-    a bruxa, jogando uma bunnymallow inconsciente no Cheshire.\",\"parentUIDs\":[43],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":394,\"yPos\":1319},\"ID\":45,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUm
+    \",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":396.5,\"yPos\":1286},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CHum,
+    trato \xE9 trato, n\xE3o discuto n\xE3o!\u201D\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":396.5,\"yPos\":1378},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CAgora,
+    vai embora e leve a minha refei\xE7\xE3o.\u201D\",\"parentUIDs\":[42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Bruxa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":45}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":400.5,\"yPos\":1467},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Disse
+    a bruxa, jogando uma bunnymallow inconsciente no Cheshire.\",\"parentUIDs\":[43],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":401.5,\"yPos\":1560},\"ID\":45,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CUm
     bunnymallow? O que ser\xE1 que eu fa\xE7o com isso?\u201D\",\"parentUIDs\":[44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -2945,7 +2921,7 @@ MonoBehaviour:
   NodeID: 0
   TMPFont: {fileID: 11400000, guid: 32b3d1232d86406458978c672251b176, type: 2}
   Icon: {fileID: 2346428892977187499, guid: 168f51f77a153a64581df3cd1051d3fe, type: 3}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: 9067adbbb4f80af40b91b7231ed2dda4, type: 3}
 --- !u!114 &851971620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3382,6 +3358,119 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
   m_PrefabInstance: {fileID: 956598670}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &956598672 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3708520696249363073, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+  m_PrefabInstance: {fileID: 956598670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &956598673
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956598672}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 87c095aa822d6134d82aebd8b64525be, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &956598674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956598672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7588bc1c7f85b97439c24043ca51a7b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &968961097
 GameObject:
   m_ObjectHideFlags: 0
@@ -3652,7 +3741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 2
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":351,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CO
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":350.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CO
     que est\xE1 escrito aqui? \u2026Lunatic\u2026 esteve aqui!\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -4054,7 +4143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundSlider: {fileID: 1229606584}
   soundEffectsSlider: {fileID: 1229606583}
-  soundEffect: []
+  soundEffect:
+  - {fileID: 956598673}
   musica: {fileID: 0}
 --- !u!1 &1287059566
 GameObject:
@@ -7978,5 +8068,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6054bffe623224b499d1f82a80764b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundEffect: []
+  soundEffect:
+  - {fileID: 956598673}
   musica: {fileID: 703638343}

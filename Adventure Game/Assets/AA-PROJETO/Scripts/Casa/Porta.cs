@@ -5,6 +5,7 @@ using UnityEngine;
 public class Porta : MonoBehaviour
 {
     [SerializeField] private GameObject obj1, obj2;
+    [SerializeField] private AudioSource porta;
     private TransicaoManager script;
     private GlobalVars script_;
     private bool podeInteragir;
@@ -19,6 +20,7 @@ public class Porta : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
+                porta.Play();
                 script_.objtvCasa = 1;
                 script_.T = 0;
                 script.Vila();

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CasaCopas : MonoBehaviour
 {
+    [SerializeField] private AudioSource porta;
     private Transicao script;
     private GlobalVars script_;
     private bool podeInteragir;
@@ -20,6 +21,7 @@ public class CasaCopas : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                porta.Play();
                 script_.CC = 1;
                 script.Transition("Casa Copas");
             }
