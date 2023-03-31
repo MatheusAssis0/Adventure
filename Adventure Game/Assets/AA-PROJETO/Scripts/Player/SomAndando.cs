@@ -5,26 +5,28 @@ using DialogueEditor;
 
 public class SomAndando : MonoBehaviour
 {
-    private Vector3 previousPosition;
+    [SerializeField] private Rigidbody2D rb;
     private AudioSource audioSource;
     private PlayerMovement script;
+    private GlobalVars script_;
 
     void Start()
     {
         script = FindObjectOfType<PlayerMovement>();
-        previousPosition = transform.position;
+        script_ = FindObjectOfType<GlobalVars>();
         audioSource = GetComponentInChildren<AudioSource>();
     }
 
-    void Update()
+    private void Update()
     {
-        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
+        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive || script_.isPaused == true)
         {
+            audioSource.Pause();
             return;
         }
         else
         {
-            if (transform.position != previousPosition && script.IsGrounded())
+            if(rb.velocity.x != 0 && script.IsGrounded())
             {
                 if (!audioSource.isPlaying)
                 {
@@ -33,13 +35,8 @@ public class SomAndando : MonoBehaviour
             }
             else
             {
-                if (audioSource.isPlaying)
-                {
-                    audioSource.Pause();
-                }
+                audioSource.Stop();
             }
         }
-
-        previousPosition = transform.position;
     }
 }

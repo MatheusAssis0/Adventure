@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 72
+  controlID: 34
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 73
+  controlID: 35
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 74
+  controlID: 107
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -191,14 +191,14 @@ MonoBehaviour:
     height: 709
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 12}
   - {fileID: 14}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -340,7 +340,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -651,9 +651,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 24.966106, y: 0, z: 0}
+    m_Target: {x: 49.828484, y: -0.16686267, z: 0}
     speed: 2
-    m_Value: {x: 24.966106, y: 0, z: 0}
+    m_Value: {x: 49.828484, y: -0.16686267, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -704,9 +704,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.7838597
+    m_Target: 3.2800229
     speed: 2
-    m_Value: 7.7838597
+    m_Value: 3.2800229
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1024,23 +1024,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 92590000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1c37ffffd439ffff543affff563affff0c3cffffec3effff7843ffffbc47ffff6e4bffffa251ffff9854fffffc56ffffae5cffff0872ffff7675ffff3a79ffff407cffff6083ffffea8cffff4c95ffff6898ffffc09bffff8ea9ffff26b6ffff72b8ffff94bbffffc2beffff60cbffff08cdffffc0d0ffff5cd1ffffc0d4ffff3ad8ffff76daffff2cdbffff4edeffffcedeffff62dfffffc6e1ffffc6e4ffff46e5ffff20e6ffffe0e8ffff60e9ffff18eaffff7eedfffffcedffff08efffff34f1ffffb4f1ffff5ef2ffffe8f4ffff2afbffff3a5c00004a5c0000ca660000d06600007c7000008470000070780000787800007080000078800000948d00009c8d0000809300000e9d00006cfa0000e8940100e69d01001ebe010026be0100
+      m_ExpandedIDs: e84cfeff2c4dfeff1850feff0a53fefffa55feffe458feff985bfeff165efeff4261feffba63feff9865feff2867feff226dfeff9271feff6a72feff8c75feffcc9bfeffbca6feff66c5feff4eddfeffbce4feff20e9feff72ecfeff10effefff8f0feffb8f4fefffaf7feffbef9feff1cfdfeffb007ffff120bffff600effff4811ffff6e14ffff5a17ffffe61affffc41dffff0024ffff9e27ffff4a2affff642cffffbc32ffff1a38ffff803dffff8244ffff6c47ffff204effffee52ffff9058ffff9c5cffff5663ffff5e72ffffc078ffff727dffff0682ffff6486ffff6c8bffffbc8fffff5693ffffe8a1ffff78a8fffff6afffffa4c4ffffbec5ffff22d0ffffeae1ffff12efffff7cf5ffff2afbffffb8b00000a6b1000036bb000076420100864301003c8a0100ce97010030ac010026da0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: mudaAudio
+        m_OriginalName: mudaAudio
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -103026
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -1091,22 +1091,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AA-PROJETO/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/AA-PROJETO/Scenes
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\PC\Documents\Adventure Game\Adventure Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 115}
-    m_SelectedIDs: ac580000
-    m_LastClickedID: 22700
-    m_ExpandedIDs: 0000000080580000825800008458000086580000885800008a5800008c5800008e5800009058000092580000945800009658000098580000a0580000ae58000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 88580000
+    m_LastClickedID: 22664
+    m_ExpandedIDs: 00000000885800008a5800008c5800008e58000090580000925800009458000096580000985800009a5800009c5800009e580000a0580000aa580000ba58000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1134,7 +1134,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000080580000825800008458000086580000885800008a5800008c5800008e5800009058000092580000945800009658000098580000
+    m_ExpandedIDs: 00000000885800008a5800008c5800008e58000090580000925800009458000096580000985800009a5800009c5800009e580000a0580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1161,7 +1161,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000d4740000b8570000cc570000ae6d0000e25e0000f67a0000568e0000be240100745200005e5c0000c86c000058580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

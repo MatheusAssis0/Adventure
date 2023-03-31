@@ -185,6 +185,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363075, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.99366224
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363075, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0806379
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363075, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.043378055
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363075, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5410669
+      objectReference: {fileID: 0}
     - target: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -195,7 +211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.338
+      value: -3.985748
       objectReference: {fileID: 0}
     - target: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -245,6 +261,18 @@ PrefabInstance:
       propertyPath: controlesMenu
       value: 
       objectReference: {fileID: 1204728188}
+    - target: {fileID: 3708520696249363087, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0806379
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363087, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.54106665
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696867848357, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
 --- !u!4 &172743257 stripped
@@ -365,6 +393,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7588bc1c7f85b97439c24043ca51a7b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 172743261}
+--- !u!50 &172743261 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3708520696249363074, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+  m_PrefabInstance: {fileID: 172743256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &288128498
 GameObject:
   m_ObjectHideFlags: 0

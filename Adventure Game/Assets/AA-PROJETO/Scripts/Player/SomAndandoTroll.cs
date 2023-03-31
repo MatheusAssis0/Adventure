@@ -5,26 +5,29 @@ using DialogueEditor;
 
 public class SomAndandoTroll : MonoBehaviour
 {
-    private Vector3 previousPosition;
+    [SerializeField] private Rigidbody2D rb;
     [SerializeField] private AudioSource grama, madeira;
     private PlayerMovement script;
+    private GlobalVars script_;
     public bool naGrama = true;
 
     void Start()
     {
         script = FindObjectOfType<PlayerMovement>();
-        previousPosition = transform.position;
+        script_ = FindObjectOfType<GlobalVars>();
     }
 
     void Update()
     {
-        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
+        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive || script_.isPaused == true)
         {
+            grama.Pause();
+            madeira.Pause();
             return;
         }
         else
         {
-            if (transform.position != previousPosition && script.IsGrounded())
+            if (rb.velocity.x != 0 && script.IsGrounded())
             {
                 if (!grama.isPlaying && naGrama == true)
                 {
@@ -49,7 +52,5 @@ public class SomAndandoTroll : MonoBehaviour
                 }
             }
         }
-
-        previousPosition = transform.position;
     }
 }

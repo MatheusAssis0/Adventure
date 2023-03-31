@@ -2180,6 +2180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasNarrrador
       objectReference: {fileID: 0}
+    - target: {fileID: 3066567676443064526, guid: 46bf7f71631e3994ca23ee2cc8289c37, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3066567676443064561, guid: 46bf7f71631e3994ca23ee2cc8289c37, type: 3}
       propertyPath: opcoes
       value: 2
@@ -3291,6 +3295,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363075, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9936621
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363075, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0839146
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363075, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.043378115
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363075, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.54270524
+      objectReference: {fileID: 0}
     - target: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3301,7 +3321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: -0.7646767
       objectReference: {fileID: 0}
     - target: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3351,6 +3371,18 @@ PrefabInstance:
       propertyPath: controlesMenu
       value: 
       objectReference: {fileID: 1229606580}
+    - target: {fileID: 3708520696249363087, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0839145
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696249363087, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.54270494
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708520696867848357, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
 --- !u!4 &956598671 stripped
@@ -3471,6 +3503,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7588bc1c7f85b97439c24043ca51a7b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 956598675}
+--- !u!50 &956598675 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3708520696249363074, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+  m_PrefabInstance: {fileID: 956598670}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &968961097
 GameObject:
   m_ObjectHideFlags: 0
@@ -5410,7 +5448,7 @@ GameObject:
   - component: {fileID: 1353652132}
   - component: {fileID: 1353652134}
   - component: {fileID: 1353652133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7104,7 +7142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1724191078}
   - component: {fileID: 1724191079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Colisor Chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
