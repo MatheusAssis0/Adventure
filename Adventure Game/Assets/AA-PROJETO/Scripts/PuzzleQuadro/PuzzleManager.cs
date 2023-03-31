@@ -3,12 +3,14 @@ using UnityEngine;
 public class PuzzleManager : MonoBehaviour
 {
     [SerializeField] private Transform emptySpace;
+    private GlobalVars script;
     [SerializeField] private Tiles[] tiles;
     private int emptySpaceIndex = 15;
     private Camera _camera;
     private bool isFinished;
     void Start()
     {
+        script = FindObjectOfType<GlobalVars>();
         _camera = Camera.main;
         Shuffle();
     }
@@ -16,42 +18,49 @@ public class PuzzleManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if(script.isPaused == true)
         {
-            Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
-
-            if (hit)
-            {
-                if (Vector2.Distance(emptySpace.position, hit.transform.position) < 2.05)
-                {
-                    Vector2 lastEmptySpacePosition = emptySpace.position;
-                    Tiles thisTile = hit.transform.GetComponent<Tiles>();
-                    emptySpace.position = thisTile.targetPosition;
-                    thisTile.targetPosition = lastEmptySpacePosition;
-                    int tileIndex = findIndex(thisTile);
-                    tiles[emptySpaceIndex] = tiles[tileIndex];
-                    tiles[tileIndex] = null;
-                    emptySpaceIndex = tileIndex;
-                }
-            }
+            return;
         }
-        if (!isFinished)
+        else
         {
-            int correctTiles = 0;
-            foreach (var a in tiles)
+            if (Input.GetMouseButtonDown(0))
             {
-                if (a != null)
+                Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
+                RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+
+                if (hit)
                 {
-                    if (a.inRightPlace)
-                        correctTiles++;
+                    if (Vector2.Distance(emptySpace.position, hit.transform.position) < 2.05)
+                    {
+                        Vector2 lastEmptySpacePosition = emptySpace.position;
+                        Tiles thisTile = hit.transform.GetComponent<Tiles>();
+                        emptySpace.position = thisTile.targetPosition;
+                        thisTile.targetPosition = lastEmptySpacePosition;
+                        int tileIndex = findIndex(thisTile);
+                        tiles[emptySpaceIndex] = tiles[tileIndex];
+                        tiles[tileIndex] = null;
+                        emptySpaceIndex = tileIndex;
+                    }
                 }
             }
-            if (correctTiles == tiles.Length - 1)
+            if (!isFinished)
             {
-                isFinished = true;
-                emptySpace.gameObject.SetActive(true);
-                Debug.Log("voce venceu");
+                int correctTiles = 0;
+                foreach (var a in tiles)
+                {
+                    if (a != null)
+                    {
+                        if (a.inRightPlace)
+                            correctTiles++;
+                    }
+                }
+                if (correctTiles == tiles.Length - 1)
+                {
+                    isFinished = true;
+                    emptySpace.gameObject.SetActive(true);
+                    Debug.Log("voce venceu");
+                }
             }
         }
     }

@@ -68637,7 +68637,6 @@ GameObject:
   - component: {fileID: 8804921294757114665}
   - component: {fileID: 8804921294757114666}
   - component: {fileID: 8804921294757114667}
-  - component: {fileID: 8804921294757114668}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -68716,41 +68715,6 @@ MonoBehaviour:
   - {fileID: 1363876692}
   - {fileID: 738134080}
   musica: {fileID: 1181199685}
---- !u!114 &8804921294757114668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8706179580157255668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3d6e0c744e4cf748954acfaafd90539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  A: 0
-  T: 0
-  C: 0
-  CC: 0
-  introVila: 0
-  objtvCasa: 0
-  enigmaTroll: 0
-  enigmaBruxa: 0
-  enigmaGuarda: 0
-  itemFlor: 0
-  itemBruxa: 0
-  itemTroll: 0
-  colecionavelFlor: 0
-  colecionavelPena: 0
-  colecionavelCoracao: 0
-  colecionavelVeludo: 0
-  guardaBruxa: 0
-  tutorialFlorestaCopas: 0
-  enigmaGuardaFloresta: 0
-  colecionavel: 0
-  isPaused: 0
-  narradorTroll: 0
-  narradorBruxa: 0
 --- !u!4 &8940379689206734806
 Transform:
   m_ObjectHideFlags: 0

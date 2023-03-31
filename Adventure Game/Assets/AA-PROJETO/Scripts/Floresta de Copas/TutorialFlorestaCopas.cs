@@ -5,16 +5,23 @@ using UnityEngine;
 public class TutorialFlorestaCopas : MonoBehaviour
 {
     [SerializeField] private GameObject tutorial1, tutorial2, tutorial3, Tutorial;
+    private PlayerMovement script_;
     private int cKeyCount, iKeyCount;
     private GlobalVars script;
 
     private void Start()
     {
         script = FindObjectOfType<GlobalVars>();
+        script_ = FindObjectOfType<PlayerMovement>();
     }
 
     private void Update()
     {
+        if(Tutorial.activeSelf == true)
+        {
+            script_.anim.SetBool("Andando", false);
+        }
+
         if(script.tutorialFlorestaCopas == true)
         {
             Tutorial.SetActive(false);

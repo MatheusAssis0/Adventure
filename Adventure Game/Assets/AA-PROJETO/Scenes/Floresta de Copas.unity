@@ -6713,6 +6713,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3708520696249363085, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
   m_PrefabInstance: {fileID: 1241633878}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1241633882 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3708520696249363080, guid: 26d9f639e88773b49861c4a829a3e38b, type: 3}
+  m_PrefabInstance: {fileID: 1241633878}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1274643281
 GameObject:
   m_ObjectHideFlags: 0
@@ -9638,6 +9643,7 @@ MonoBehaviour:
   tutorial2: {fileID: 1408024200}
   tutorial3: {fileID: 482911457}
   Tutorial: {fileID: 1408024199}
+  anim: {fileID: 1241633882}
 --- !u!114 &7658569609500635032
 MonoBehaviour:
   m_ObjectHideFlags: 0

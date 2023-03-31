@@ -19,6 +19,7 @@ public class CasaBruxa : MonoBehaviour
         if(Tutorial.activeSelf == true)
         {
             script_.enabled = false;
+            script_.anim.SetBool("Andando", false);
         }
         else
         {
