@@ -16,7 +16,7 @@ public class Porta : MonoBehaviour
     }
     private void Update()
     {
-        if(podeInteragir == true)
+        if(podeInteragir == true && script_.A != 1)
         {
             if(Input.GetKeyDown(KeyCode.E))
             {

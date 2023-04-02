@@ -39,6 +39,13 @@ public class DarItem : MonoBehaviour
     {
         script.colecionavelVeludo = true;
     }
+    public void ZerarInventarioGuarda()
+    {
+        script.itemBruxa = false;
+        script.itemFlor = false;
+        script.itemTroll = false;
+    }
+
     public void ZerarInventario()
     {
         script.itemBruxa = false;

@@ -3,6 +3,7 @@ using UnityEngine;
 public class PuzzleManager : MonoBehaviour
 {
     [SerializeField] private Transform emptySpace;
+    [SerializeField] private GameObject fim, narrador;
     private GlobalVars script;
     [SerializeField] private Tiles[] tiles;
     private int emptySpaceIndex = 15;
@@ -57,9 +58,7 @@ public class PuzzleManager : MonoBehaviour
                 }
                 if (correctTiles == tiles.Length - 1)
                 {
-                    isFinished = true;
-                    emptySpace.gameObject.SetActive(true);
-                    Debug.Log("voce venceu");
+                    Venceu();
                 }
             }
         }
@@ -130,5 +129,16 @@ public class PuzzleManager : MonoBehaviour
             inversionsSum += thisTileInvertion;
         }
         return inversionsSum;
+    }
+
+    public void Venceu()
+    {
+        isFinished = true;
+        emptySpace.gameObject.SetActive(true);
+        fim.SetActive(true);
+        narrador.SetActive(true);
+        script.colecionavelCoracao = true;
+        script.colecionavelFlor = true;
+        Debug.Log("voce venceu");
     }
 }

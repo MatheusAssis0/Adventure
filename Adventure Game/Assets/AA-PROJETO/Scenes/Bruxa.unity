@@ -590,7 +590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogo1: {fileID: 827344532}
-  dialogo2: {fileID: 1074129308}
+  dialogo2: {fileID: 222944121}
   dialogo3: {fileID: 222944121}
   opcoes: 2
 --- !u!61 &279686412
@@ -2185,6 +2185,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3066567676443064561, guid: 46bf7f71631e3994ca23ee2cc8289c37, type: 3}
+      propertyPath: fim
+      value: 
+      objectReference: {fileID: 647635022}
+    - target: {fileID: 3066567676443064561, guid: 46bf7f71631e3994ca23ee2cc8289c37, type: 3}
       propertyPath: opcoes
       value: 2
       objectReference: {fileID: 0}
@@ -2384,7 +2388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662503568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.050683, y: 0.73, z: 0}
+  m_LocalPosition: {x: -4.050683, y: 0.807, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3791,7 +3795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 2
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":350.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CO
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":346,\"yPos\":57},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u201CO
     que est\xE1 escrito aqui? \u2026Lunatic\u2026 esteve aqui!\u201D\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Cheshire\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
