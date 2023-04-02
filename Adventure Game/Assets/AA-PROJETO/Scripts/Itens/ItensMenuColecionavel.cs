@@ -69,6 +69,8 @@ public class ItensMenuColecionavel : MonoBehaviour
         {
             foreach (Image img in item)
             {
+                itemInfo.SetActive(false);
+                itemDica.SetActive(true);
                 var tempColor = img.color;
                 tempColor.a = 0.2f;
                 img.color = tempColor;
